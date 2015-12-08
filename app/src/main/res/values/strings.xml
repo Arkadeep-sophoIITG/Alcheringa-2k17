@@ -1,7 +1,9 @@
 <resources>
     <string name="app_name">Alcheringa</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="button_news_feed">News Feed</string>
+    <string name="title_activity_news_feed">Latest News</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    <string name="title_activity_splash">Splash</string>
 </resources>

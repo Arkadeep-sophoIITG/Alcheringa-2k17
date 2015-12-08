@@ -7,7 +7,7 @@
     <item>
         <bitmap
             android:gravity="center|clip_horizontal"
-            android:src="@drawable/scaled_font_face"
+            android:src="@mipmap/splashbg"
             />
 
     </item>
