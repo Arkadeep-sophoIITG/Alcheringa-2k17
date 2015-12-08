@@ -5,7 +5,7 @@ android {
     buildToolsVersion "23.0.1"
 
     defaultConfig {
-        applicationId "in.alcheringa.alcher15"
+        applicationId "in.alcheringa.alcher16"
         minSdkVersion 15
         targetSdkVersion 23
         versionCode 1

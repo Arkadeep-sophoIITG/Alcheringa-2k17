@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="in.alcheringa.alcher15" >
+    package="in.alcheringa.alcher16" >
 
     <application
         android:allowBackup="true"
@@ -8,12 +8,12 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".MainActivity"
+            android:name="in.alcheringa.alcher16.MainActivity"
             android:label="@string/app_name" >
 
         </activity>
         <activity
-            android:name=".Splash"
+            android:name="in.alcheringa.alcher16.Splash"
             android:label="@string/app_name"
             android:theme="@style/SplashTheme">
             <intent-filter>
