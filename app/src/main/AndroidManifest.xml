@@ -39,10 +39,11 @@
             android:name=".NewsFeedActivity"
             android:label="@string/title_activity_news_feed" >
         </activity>
+
         <service android:name="com.parse.PushService" />
 
         <receiver
-            android:name="com.parse.ParsePushBroadcastReceiver"
+            android:name=".CustomParseReceiver"
             android:exported="false" >
             <intent-filter>
                 <action android:name="com.parse.push.intent.RECEIVE" />
@@ -61,6 +62,10 @@
             </intent-filter>
         </receiver>
 
+        <activity
+            android:name=".Concerts"
+            android:label="@string/title_activity_concerts" >
+        </activity>
     </application>
 
 </manifest>

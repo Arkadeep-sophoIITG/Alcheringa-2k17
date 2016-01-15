@@ -7,8 +7,11 @@
         layout="@layout/tool_bar"
         ></include>
 
-    <TextView android:text="Hello!!!" android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/tool_bar"/>
+    <com.daimajia.slider.library.SliderLayout
+        android:id="@+id/slider"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/tool_bar"
+        />
 
 </RelativeLayout>
