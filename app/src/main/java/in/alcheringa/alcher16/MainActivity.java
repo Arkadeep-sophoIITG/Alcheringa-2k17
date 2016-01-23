@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ImageView;
 import android.widget.ListView;
 
 import com.daimajia.slider.library.Animations.DescriptionAnimation;
@@ -18,7 +20,7 @@ import java.util.HashMap;
 public class MainActivity extends AppCompatActivity implements BaseSliderView.OnSliderClickListener {
     private Toolbar toolbar;
     SliderLayout mDemoSlider;
-
+    private ImageView a,b,c,d;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,6 +56,25 @@ public class MainActivity extends AppCompatActivity implements BaseSliderView.On
         mDemoSlider.setCustomAnimation(new DescriptionAnimation());
         mDemoSlider.setDuration(4000);
 
+        a =(ImageView) findViewById(R.id.main_grid_iv1);
+        b =(ImageView) findViewById(R.id.main_grid_iv2);
+        c =(ImageView) findViewById(R.id.main_grid_iv3);
+        d =(ImageView) findViewById(R.id.main_grid_iv4);
+        a.setImageResource(R.drawable.a);
+        b.setImageResource(R.drawable.b);
+        c.setImageResource(R.drawable.c);
+        d.setImageResource(R.drawable.a);
+        a.setScaleType(ImageView.ScaleType.FIT_XY);
+        b.setScaleType(ImageView.ScaleType.FIT_XY);
+        c.setScaleType(ImageView.ScaleType.FIT_XY);
+        d.setScaleType(ImageView.ScaleType.FIT_XY);
+        a.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Competitions.class);
+                MainActivity.this.startActivity(intent);
+            }
+        });
 
 
     }

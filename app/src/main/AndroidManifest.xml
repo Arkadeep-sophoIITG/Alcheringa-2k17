@@ -66,6 +66,10 @@
             android:name=".Concerts"
             android:label="@string/title_activity_concerts" >
         </activity>
+        <activity
+            android:name=".Competitions"
+            android:label="@string/title_activity_competitions" >
+        </activity>
     </application>
 
 </manifest>
