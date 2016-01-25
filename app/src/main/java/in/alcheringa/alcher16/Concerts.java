@@ -7,7 +7,12 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.ImageView;
+
+import com.mikepenz.materialdrawer.Drawer;
+import com.mikepenz.materialdrawer.DrawerBuilder;
+import com.mikepenz.materialdrawer.model.interfaces.IDrawerItem;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,6 +29,22 @@ public class Concerts extends AppCompatActivity {
         setContentView(R.layout.activity_concerts);
         toolbar = (Toolbar) findViewById(R.id.tool_bar); // Attaching the layout to the toolbar object
         setSupportActionBar(toolbar);
+        Drawer drawer = new DrawerBuilder()
+                .withActivity(this)
+                .withToolbar(toolbar)
+                .withTranslucentStatusBar(false)
+                .withActionBarDrawerToggle(true)
+                .withActionBarDrawerToggleAnimated(true)
+                .addDrawerItems(App.item1, App.item2,App.item3,App.item4,App.item5,App.item6,App.item7)
+                .withOnDrawerItemClickListener(new Drawer.OnDrawerItemClickListener() {
+                    @Override
+                    public boolean onItemClick(View view, int position, IDrawerItem drawerItem) {
+
+                        return true;
+                    }
+                })
+                .build();
+        drawer.setSelection(1);
         ImageView imageView = (ImageView) findViewById(R.id.concertImageView);
         imageView.setImageResource(R.drawable.a);
         rv = (RecyclerView)findViewById(R.id.rv);
@@ -37,9 +58,10 @@ public class Concerts extends AppCompatActivity {
     }
     private void initializeData(){
         concertItem = new ArrayList<>();
-        concertItem.add(new ConcertItem("Aegjnvfkdjgnv",  R.drawable.a));
-        concertItem.add(new ConcertItem("Bvkjdhsvkjl", R.drawable.b));
-        concertItem.add(new ConcertItem("Csfkchdskvjc", R.drawable.c));
+        concertItem.add(new ConcertItem("Saaz",  R.drawable.a));
+        concertItem.add(new ConcertItem("Blitzkrieg", R.drawable.b));
+        concertItem.add(new ConcertItem("Crescendo", R.drawable.c));
+        concertItem.add(new ConcertItem("Juggernaut", R.drawable.a));
     }
 
     private void initializeAdapter(){

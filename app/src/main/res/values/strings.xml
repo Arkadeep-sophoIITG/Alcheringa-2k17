@@ -9,4 +9,21 @@
     <string name="title_activity_concerts">Concerts</string>
     <string name="title_activity_main2">Main2Activity</string>
     <string name="title_activity_competitions">Competitions</string>
+    <string name="title_activity_module">Module</string>
+    <string-array name="tab_names">
+        <item>Music</item>
+        <item>Dance</item>
+        <item>Class Apart</item>
+        <item>Digital Arts</item>
+        <item>Fine Arts</item>
+        <item>Performing Arts</item>
+        <item>Literary</item>
+        <item>Sports</item>
+        <item>Quiz</item>
+    </string-array>
+    <string-array name="tab_names_event">
+        <item>About</item>
+        <item>Rules</item>
+    </string-array>
+    <string name="title_activity_event">Event</string>
 </resources>

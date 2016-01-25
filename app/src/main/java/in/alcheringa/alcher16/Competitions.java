@@ -1,12 +1,18 @@
 package in.alcheringa.alcher16;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.GridView;
 import android.widget.ImageView;
+
+import com.mikepenz.materialdrawer.Drawer;
+import com.mikepenz.materialdrawer.DrawerBuilder;
+import com.mikepenz.materialdrawer.model.interfaces.IDrawerItem;
 
 public class Competitions extends AppCompatActivity {
     private Toolbar toolbar;
@@ -18,6 +24,23 @@ public class Competitions extends AppCompatActivity {
         setContentView(R.layout.activity_competitions);
         toolbar = (Toolbar) findViewById(R.id.tool_bar); // Attaching the layout to the toolbar object
         setSupportActionBar(toolbar);
+
+        Drawer drawer = new DrawerBuilder()
+                .withActivity(this)
+                .withToolbar(toolbar)
+                .withTranslucentStatusBar(false)
+                .withActionBarDrawerToggle(true)
+                .withActionBarDrawerToggleAnimated(true)
+                .addDrawerItems(App.item1, App.item2,App.item3,App.item4,App.item5,App.item6,App.item7)
+                .withOnDrawerItemClickListener(new Drawer.OnDrawerItemClickListener() {
+                    @Override
+                    public boolean onItemClick(View view, int position, IDrawerItem drawerItem) {
+
+                        return true;
+                    }
+                })
+                .build();
+        drawer.setSelection(1);
         main =(ImageView) findViewById(R.id.image_comp_main);
         main.setImageResource(R.drawable.a);
         main.setScaleType(ImageView.ScaleType.FIT_XY);
@@ -59,7 +82,6 @@ public class Competitions extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_competitions, menu);
         return true;
     }
 
@@ -76,5 +98,51 @@ public class Competitions extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void onClick1(View view) {
+        Intent mIntent = new Intent(this, Module.class);
+        mIntent.putExtra("position", 0);
+        Competitions.this.startActivity(mIntent);
+    }
+    public void onClick2(View view) {
+        Intent mIntent = new Intent(this, Module.class);
+        mIntent.putExtra("position", 1);
+        Competitions.this.startActivity(mIntent);
+    }
+    public void onClick3(View view) {
+        Intent mIntent = new Intent(this, Module.class);
+        mIntent.putExtra("position", 2);
+        Competitions.this.startActivity(mIntent);
+    }
+    public void onClick4(View view) {
+        Intent mIntent = new Intent(this, Module.class);
+        mIntent.putExtra("position",3);
+        Competitions.this.startActivity(mIntent);
+    }
+    public void onClick5(View view) {
+        Intent mIntent = new Intent(this, Module.class);
+        mIntent.putExtra("position", 4);
+        Competitions.this.startActivity(mIntent);
+    }
+    public void onClick6(View view) {
+        Intent mIntent = new Intent(this, Module.class);
+        mIntent.putExtra("position", 5);
+        Competitions.this.startActivity(mIntent);
+    }
+    public void onClick7(View view) {
+        Intent mIntent = new Intent(this, Module.class);
+        mIntent.putExtra("position", 6);
+        Competitions.this.startActivity(mIntent);
+    }
+    public void onClick8(View view) {
+        Intent mIntent = new Intent(this, Module.class);
+        mIntent.putExtra("position", 7);
+        Competitions.this.startActivity(mIntent);
+    }
+    public void onClick9(View view) {
+        Intent mIntent = new Intent(this, Module.class);
+        mIntent.putExtra("position", 8);
+        Competitions.this.startActivity(mIntent);
     }
 }

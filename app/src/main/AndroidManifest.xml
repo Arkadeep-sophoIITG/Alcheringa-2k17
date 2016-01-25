@@ -70,6 +70,14 @@
             android:name=".Competitions"
             android:label="@string/title_activity_competitions" >
         </activity>
+        <activity
+            android:name=".Module"
+            android:label="@string/title_activity_module" >
+        </activity>
+        <activity
+            android:name=".Event"
+            android:label="@string/title_activity_event" >
+        </activity>
     </application>
 
 </manifest>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="music">
+        <item>Raga High</item>
+        <item>Voice Of Alcheringa</item>
+        <item>Unplugged</item>
+    </string-array>
+    <string-array name="dance">
+        <item>Electric Heels</item>
+        <item>Step Up</item>
+        <item>So You Think You Can Dance</item>
+        <item>Nach Baliye</item>
+        <item>Navras</item>
+        <item>Footloose</item>
+    </string-array>
+    <string-array name="classapart">
+        <item>Rock-o-Phonix</item>
+        <item>Haute Couture</item>
+        <item>Mr and Miss Alcheringa</item>
+        <item>Crossfade</item>
+        <item>Roadiez</item>
+    </string-array>
+    <string-array name="digitalarts">
+        <item>Custom Brush</item>
+        <item>Minimal Poster</item>
+        <item>Alcher Diva/Hunk</item>
+        <item>Snapthrillz</item>
+        <item>AD-Dict</item>
+        <item>Director\'s Cut</item>
+        <item>Typography</item>
+        <item>Doodle Pad</item>
+    </string-array>
+
+    <string-array name="finearts">
+        <item>The Big Picture</item>
+        <item>In the Tee</item>
+        <item>Stroke Of Genius</item>
+        <item>Comic Con</item>
+        <item>Rangoli</item>
+        <item>Faceless</item>
+    </string-array>
+
+    <string-array name="performingarts">
+        <item>Theatrix</item>
+        <item>Halla Bol</item>
+        <item>Why So Serious</item>
+        <item>Mute</item>
+    </string-array>
+    <string-array name="literary">
+        <item>Just A Minute</item>
+        <item>Poetry Slam</item>
+        <item>Parliamentary Debate</item>
+        <item>Press Corps</item>
+        <item>Zephyr</item>
+        <item>MUN</item>
+    </string-array>
+    <string-array name="sports">
+        <item>3 v 3 Basketball</item>
+        <item>Arm Wrestling</item>
+        <item>Gully Cricket</item>
+        <item>5 on 5 Football</item>
+    </string-array>
+    <string-array name="quiz">
+        <item>MELA Quiz</item>
+        <item>Entertainment Quiz</item>
+    </string-array>
+
+</resources>

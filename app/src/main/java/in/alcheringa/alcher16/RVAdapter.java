@@ -19,7 +19,6 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.CViewHolder> {
 
         CardView cv;
         TextView personName;
-        TextView personAge;
         ImageView personPhoto;
 
 
