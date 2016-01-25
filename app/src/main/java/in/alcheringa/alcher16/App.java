@@ -16,7 +16,7 @@ public class App extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        Parse.initialize(this, "NkTjvnwS5vAucnRCjzLk1nOr5h7VaEepqvMFDEXA", "FJOvVhNswwJo3CcU5F9mbMsVRZycgpMMvDiFkgi6");
+        Parse.initialize(this, "KMJ2j4Re9BRHVB8EsoRBoUv7YIMl0xANgWSU8aVx", "29jNOfMaIxo9Tp0Cm9Tn67SaqE0WsOlxBdqyW7jZ");
         ParseInstallation.getCurrentInstallation().saveInBackground();
 
         item1 = new PrimaryDrawerItem().withName("Home").withIcon(R.drawable.home);

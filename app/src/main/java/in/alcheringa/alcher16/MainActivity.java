@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity implements BaseSliderView.On
 
 
         mDemoSlider = (SliderLayout) findViewById(R.id.slider);
-        HashMap<String,Integer> file_maps = new HashMap<String, Integer>();
+        HashMap<String,Integer> file_maps = new HashMap<    String, Integer>();
         file_maps.put("a",R.drawable.a);
         file_maps.put("b", R.drawable.b);
         file_maps.put("c", R.drawable.c);

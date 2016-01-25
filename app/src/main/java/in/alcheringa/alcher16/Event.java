@@ -17,6 +17,7 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import com.mikepenz.materialdrawer.Drawer;
 import com.mikepenz.materialdrawer.DrawerBuilder;
@@ -34,12 +35,15 @@ public class Event extends AppCompatActivity {
         event_name=getIntent().getExtras().getString("eventname");
         Toolbar toolbar = (Toolbar) findViewById(R.id.tool_bar); // Attaching the layout to the toolbar object
         setSupportActionBar(toolbar);
+        getSupportActionBar().setTitle(event_name);
 
         viewPager=(ViewPager) findViewById(R.id.viewpager_event);
         viewPager.setAdapter(new MyPagerAdapter(getSupportFragmentManager(),event_name));
         tabs=(SlidingTabLayout) findViewById(R.id.tabs_event);
+        tabs.setDistributeEvenly(true);
         tabs.setViewPager(viewPager);
         viewPager.setCurrentItem(0);
+
 
         Drawer drawer = new DrawerBuilder()
                 .withActivity(this)
@@ -101,8 +105,7 @@ public class Event extends AppCompatActivity {
         public View onCreateView(LayoutInflater inflater,@Nullable ViewGroup container,@Nullable Bundle savedInstanceState)
         {
             String[] listStrings;
-
-            View layout = inflater.inflate(R.layout.tab_page,container,false);
+            View layout;
             Bundle bundle=getArguments();
             if(bundle!=null)
             {
@@ -113,36 +116,25 @@ public class Event extends AppCompatActivity {
             switch (tabposition)
             {
                 case 0:
-                    listStrings=getResources().getStringArray(R.array.music);
+                    listStrings=getResources().getStringArray(R.array.ragahigh);
+                    layout = inflater.inflate(R.layout.event_tab1, container, false);
+                    TextView tvTag=(TextView) layout.findViewById(R.id.event_tagline);
+                    TextView tvDesc=(TextView) layout.findViewById(R.id.event_desc);
+                    tvTag.setText(listStrings[0]);
+                    tvDesc.setText(listStrings[1]);
                     break;
                 case 1:
-                    listStrings=getResources().getStringArray(R.array.dance);
-                    break;
-                case 2:
-                    listStrings=getResources().getStringArray(R.array.classapart);
-                    break;
-                case 3:
-                    listStrings=getResources().getStringArray(R.array.digitalarts);
-                    break;
-                case 4:
-                    listStrings=getResources().getStringArray(R.array.finearts);
-                    break;
-                case 5:
-                    listStrings=getResources().getStringArray(R.array.performingarts);
-                    break;
-                case 6:
-                    listStrings=getResources().getStringArray(R.array.literary);
-                    break;
-                case 7:
-                    listStrings=getResources().getStringArray(R.array.sports);
-                    break;
-                case 8:
-                    listStrings=getResources().getStringArray(R.array.quiz);
+                    listStrings=getResources().getStringArray(R.array.ragahigh);
+                    layout = inflater.inflate(R.layout.event_tab2, container, false);
+                    TextView tvRules=(TextView) layout.findViewById(R.id.event_rules);
+                    tvRules.setText(listStrings[2]);
                     break;
                 default:
                     listStrings=getResources().getStringArray(R.array.quiz);
+                    layout = inflater.inflate(R.layout.event_tab2,container,false);
                     break;
             }
+
 
             return layout;
         }

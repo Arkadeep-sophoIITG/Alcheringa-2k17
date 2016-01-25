@@ -147,9 +147,9 @@ public class Module extends AppCompatActivity {
                 public void onItemClick(AdapterView<?> parent, View view,int position, long id) {
                     String  itemValue    = (String) listView.getItemAtPosition(position);
                     Intent mIntent = new Intent(getActivity().getApplicationContext(), Event.class);
+                    mIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                     mIntent.putExtra("eventname", itemValue);
                     getActivity().getApplicationContext().startActivity(mIntent);
-
                 }
 
             });
