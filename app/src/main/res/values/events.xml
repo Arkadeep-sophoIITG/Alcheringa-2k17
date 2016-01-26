@@ -1,29 +1,1068 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <resources>
     <string-array name="ragahigh">
         <item>Hindi Band Competition</item>
         <item>A harmonium or a keyboard, a guitar or a tanpura, hindi music has always been a sublime confluence of musical influences from all over the the country. Come and let the pleasant Classical, the eclectic Pop and the divine Sufi bring out the best in you. Mesmerize the world with the power in your music!</item>
-        <item>PRELIMS \n
-1. This round involves online submission. A band will have to submit a link to their songs. Further instructions and the submission link will be uploaded on our website (www.alcheringa.in). Offline submission will not be considered.
+      <item>PRELIMS \n
+1. This round involves online submission. A band will have to submit a link to their songs. Further instructions and the submission link will be uploaded on our website (www.alcheringa.in). Offline submission will not be considered.\n
 
-2. Vocals of the songs should only be in Hindi.
+2. Vocals of the songs should only be in Hindi.\n
 
-3. Each band should consist of a minimum of 3 members.
+3. Each band should consist of a minimum of 3 members.\n
 
-4. Each band should consist of a minimum of 1 vocalist.
+4. Each band should consist of a minimum of 1 vocalist.\n
 
-5. Top 7 teams from the prelims shall qualify for the finals.
+5. Top 7 teams from the prelims shall qualify for the finals.\n
 
-FINALS
-1. The 7 qualified teams will be invited to Alcheringa 2016 and will be given an opportunity to perform in front of a huge crowd.
+FINALS\n
+1. The 7 qualified teams will be invited to Alcheringa 2016 and will be given an opportunity to perform in front of a huge crowd.\n
 
-2. Each team will be given a total time of 25 minutes (which also includes stage setup time).
+2. Each team will be given a total time of 25 minutes (which also includes stage setup time).\n
 
-3. Performance must include one original composition of at least 3 minutes.</item>
+3. Performance must include one original composition of at least 3 minutes.\n</item>
     </string-array>
+    <string-array name="voiceofalcheringa">
+        <item>Solo Singing Competition</item>
+        <item>Haven\'t you been waiting for that one opportunity to show the world just how awesome a singer you could be? Then “Voice of Alcheringa” is just for you! A solo singing competition which sees the participation of over a hundred talented voices every year, Voice of Alcheringa is one of the most sought after events in Alcheringa. Whether you are a bathroom singer or a rockstar, if you think you have it in you to mesmerize the world with your voice, alcheringa provides you one of the biggest opportunities to establish yourself!</item>
+      <item>PRELIMS\n
+1. The participant has to perform any one song of his/her choice. The song must only be in Hindi or English.\n
+
+2. One acoustic instrument is allowed but judging will be solely done on the basis of vocal performance.\n
+
+3. Participants are not allowed to use any kind of pre-recorded music for this round.\n
+
+4. Maximum performance time for this round is 3 minutes.\n
+
+5. Top 10 percent of total number of candidates from this round will qualify for the finals.\n
+
+6. Special wild-card entries will be chosen from different parts of the fest so be on a look out, you might just land a direct entry into the finals!\n
+
+FINALS\n
+1. For this round, the contestants have to choose and prepare a song beforehand from the list of songs that has been attached herewith and will also be uploaded on our website (www.alcheringa.in) well in advance.\n
+
+2. The selected candidates will perform their selected song along with pre-recorded music, which will be provided to them by the organizers.\n
+
+3. Maximum performance time for this round will be 10 minutes.\n
+
+4. List of songs for the finals:\n
+
+- Gulabi Aankhein Jo Teri \n
+- Mai Koi Aisa Geet Gaaon \n
+- Tum Hi Ho (Aashiqui 2) \n
+- Main Tenu Samjhawan \n
+- Love Me Like You Do \n
+- If I Lose Myself \n
+- Comfortably Numb \n
+- Let It Be (Beatles)\n</item>
+    </string-array>
+    <string-array name="unplugged">
+        <item>Acoustic Competition</item>
+        <item>Witness the notes being charges up with power, as Alcheringa brings an event without electrical amplification.</item>
+      <item>RULES\n
+1. Participants can use any instrument of their choice provided they are acoustic.\n
+
+2. Vocals are compulsory. The judging will be on the overall performance and not just on the instrumental performance.\n
+
+3. Mikes, one acoustic guitar and a keyboard will be provided.\n
+
+4. Participants must confirm availability of the instruments in advance with the event organizers.\n
+
+5. A drum set will not be provided by Alcheringa. Participants are encouraged to use alternate percussion instruments.\n
+
+6. Participation can be solo or in a team. Maximum team size is 3.\n
+
+PRELIMS\n
+1. Participants are allowed to perform for a minimum of 3 and maximum of 7 minutes.\n
+
+2. Top 5 participants/teams will qualify for the finals.\n
+
+FINALS\n
+1. Participants/Teams will be given 10 minutes of performance time and 3 minutes of setup time. Participants/Teams should perform at least 2 songs in the given time.\n
+
+**Subject to change depending on the participation number.\n</item>
+    </string-array>
+    <string-array name="electricheels">
+        <item>Free Style Group Dance Competition</item>
+      <item>"Talk about dance? Dance is not something to talk about. Dance is to dance."\n
+Kids all around the block brag about their skills. Time to show them who the boss is.\n
+Witness Chaos and Order intertwine in a ritualistic dance as each of our featured crew leaves a masterpiece on the stage.\n
+Electric Heels is a group dance competition, featuring the most talented crews across the nation.\n</item>
+      <item>Rules\n
+1. The event takes place in two stages, the Prelims and the Freestyle (Final) round.\n
+
+2. Teams may consist of a minimum of 5 and a maximum of 25 members.\n
+
+3. A minimum of 5 and a maximum of 12 members must be present on the stage at any given moment.\n
+
+4. The minimum age limit for this competition is 12 years.\n
+
+5. Music for the prelims round must be submitted separately to the organizer before the performance. File name should have the format (TeamName_ElectricHeels). Eg: "Cadence_ElectricHeels.mp3"\n
+
+6. Any prerecorded or live music can be used for the performance.\n
+
+7. The decision taken by the organizers is final and binding for the performers. Any kind of misbehaviour would result in direct disqualification.\n
+
+8. Follow the general guidelines provided at the end of the module.\n
+
+PRELIMS\n
+1. In the prelims, the participants are required to give a short performance that should not exceed 3 minutes.\n
+
+2. Props are allowed, but they do not fetch you any points in this round.\n
+
+FINALS\n
+1. The top 5 teams will be selected for the finals, where they have to showcase a performance of their choice.\n
+
+2. Performance duration in this round should not exceed 8 minutes.\n
+
+3. Innovations such as props fetch extra points in this round.\n</item>
+    </string-array>
+    <string-array name="stepup">
+        <item>Street Dance Battle</item>
+      <item>Streets where Moose started winning our hearts, where the real \'bounce\' happened.\n
+Alcheringa, gives you the chance to flaunt what you got. This event is all about people who want to do HipHop, free-styling, break dance, popping, locking, B-Boying, tutting, waving, threading and dance their hearts out.\n
+If you think you can challenge the opposite group face to face then this event is for you. Two crews step it up and battle it out and make their way to the very top of the crowd. Time to make your opponent bite dust.\n</item>
+      <item>RULES\n
+1. It will be a dance face off between two teams.\n
+
+2. It will be an open air event.\n
+
+3. The team must consist of a minimum of 4 and a maximum of 8 members.\n
+
+4. The minimum age limit for this competition is 12 years.\n
+
+5. The dance style should be primarily a blend of Hip-Hop, Free styling, Break dance, Popping, Locking, B—Boying, Tutting, Waving, Threading and other funky dance styles.\n
+
+6.The timer for a crew starts at the very moment when the dancer steps into the performing area.\n
+
+7. The music for the performance will be provided on the spot.\n
+
+8. The dimensions of the stage/performance area will be uploaded a month before the festival.\n
+
+9. The decision taken by the organizers is final and binding for the performers. Any kind of misbehaviour would result in direct disqualification.\n
+
+10. Follow the general guidelines provided at the end of the module.\n
+
+PRELIMS\n
+1. It is a knock-out based event. The team that wins a round goes to the next level.\n
+
+2. Teams alternatively take turns to showcase their skills, either through individual or group performance.\n
+
+3. Each turn lasts for a minute and each team gets 2 such turns.\n
+
+4. A minimum of 1 and a maximum of 2 props are to be used by the teams during their performance.\n
+
+FINALS\n
+1. A coin toss decides which team goes first.\n
+
+2. The teams will be given 4 turns alternatively, each of 1 minute in the semi-final and the final round.\n</item>
+    </string-array>
+    <string-array name="soyouthinkyoucandance">
+        <item>Solo Non Classical Dance Competition</item>
+      <item>They always said there was something different about you. Always a notch above the rest. Always a step ahead. Your seemingly effortless grace made your rivals green with envy.\n
+But you always knew who your real rival was — YOU!\n
+Well, the stage calls again. The spotlight is yours. Woo the crowd with those moves, and walk out with swagger, like good ol’ Mick Jagger!\n</item>
+      <item>RULES\n
+1. The decision taken by the organizers is final and binding for the performers. Any kind of misbehaviour would result in direct disqualification.\n
+
+2. Follow the general guidelines provided at the end of the module.\n
+
+3. The minimum age limit for this competition is 12 years.\n
+
+PRELIMS\n
+1. The Prelims will be an impromptu competition where the participants will be given a song 15 minutes before the event begins.\n
+
+2. Top 10 participants will make it to the finals.\n
+
+3. The time duration will be 3-4 minutes in the prelims.\n
+
+FINALS\n
+1. The finalists are free to choose songs and dance forms of their own choice.\n
+
+2. The performance duration for the finals will be 4-5 minutes.\n</item>
+    </string-array>
+    <string-array name="nachbaliye">
+        <item>Couple Dance Competition</item>
+      <item>“Live your truth. Eyour love. Share your enthusiasm. Take action towards your dream.”\n
+The most awaited event of dance module — the Couple Dance. \n
+Its all about chemistry, synchronization and a little fun and you are all set to tap and dance to the rhythm. So bring your partner and put up a scintillating show like never before.\n</item>
+      <item>RULES\n
+1. The competition takes place in two rounds, the prelims and the finals. Any pre — recorded or live music can be used for the performance.\n
+
+2. Music for the prelims must be submitted separately to the organizers before the performance and the names of the audio files should be same as the name of participants.\n
+
+PRELIMS\n
+1. The couple has to perform on a self-chosen song.\n
+
+2. The time limit is a minimum of 3 minutes and a maximum of 4 minutes.\n
+
+3. Classical dance forms are not allowed. Participants interested in classical dance will find recluse in Alcheringa’s NAVRAS, a competition dedicated exclusively to classical forms of dance.\n
+
+4. Props won`t be a part of judging criterion.\n
+
+FINALS\n
+1. 8 pairs will qualify to compete in the finals. In this round, the couple has to perform a particular dance form. Before the event, the team has to declare the form of dance they are going to perform.\n
+
+2. Any kind of deviation from the dance form will result in negative marking.\n
+
+RULES\n
+1. Two individuals of opposite gender can pair up to compete in this event.\n
+
+2. Live music is not allowed.\n
+
+3. The music should be submitted to the organizer at least an hour before the event.\n
+
+4. Please refer to the general guidelines for the dance competitions for more rules.\n
+
+5. The decision taken by the organizers will be final and binding for the participants.\n
+
+6. The minimum age limit for this competition is 12 years.\n</item>
+    </string-array>
+    <string-array name="navras">
+        <item>Solo Classical Dance Competition</item>
+      <item>This is what takes us to our roots.\n
+Alcheringa strives to give Indian classical dancers a bigger and a better stage with each upcoming edition. Prepare yourselves to witness some of the most intricate rhythms, footwork and spins to have graced this planet!\n
+Navras is a platform that brings back to us a touch of our culture, our heritage.\n</item>
+      <item>RULES\n
+1. The competition takes place in two rounds, the prelims and the finals. Any pre—recorded or live music can be used for the performance.\n
+
+2. Music for the prelims must be submitted separately to the organizers before the performance and the names of the audio files should be same as the name of participants.\n
+
+PRELIMS\n
+1. The participants are allowed to present a demo version of their performance for the Final round.\n
+
+2. The duration of the performance should not be more than 4 minutes.\n
+
+3. Props are allowed, but will NOT fetch any points in this round.\n
+
+FINALS\n
+1. 5 participants are selected for this round.\n
+
+2. The duration of performance should not be more than 6 minutes.\n
+
+3. The creative use of props is allowed in this round, and they do fetch extra points in this round.\n</item>
+    </string-array>
+    <string-array name="footloose">
+        <item>Group Dance Video Competition</item>
+        <item>Gather your friends, dance up a storm and send us the video to win prizes worth INR 10K ! Performing in front of a crowd will earn you bonus points. The best entries will feature on our Page.</item>
+      <item>RULES\n
+It is a freestyle group dance competition which can be performed in front of an outdoor audience.\n
+
+The team should consist of minimum of five participants.\n
+
+The entry has to be submitted online through the following link The length of the video should be between four to six minutes.\n
+
+The video entry should showcase that it has been exclusively performed for Alcheringa for example a placard with Alcheringa written on it and can be kept in front while recording the video or you can stick a paper with Alcheringa written on it on your t-shirts.\n
+
+The entries will be screened and best entries will be uploaded through our Facebook page.\n
+
+Judging Criterion\n
+
+
+The best performance shall be judged on the basis of following criterions 60% Weight-age will be given to the performance in the video.\n
+
+30% Weight-age will be given to the reach of the video uploaded through our page ( Number of Likes and Shares ) \n
+
+10% Weight-age will be given for public performance.\n</item>
+    </string-array>
+    <string-array name="rockophonix">
+        <item>Rock Band Competition</item>
+        <item>When we say we get some of the best rock bands in the country, we aren\'t kidding. Alcheringa presents you the Holy Grail of Rock... the winner takes all!</item>
+      <item>General Guidelines:\n
+
+Explicit or offensive lyrics/gestures guarantee immediate expulsion from the stage.\n
+
+Booze/drugs/smoke are strictly not allowed in campus.\n
+
+Decisions of judges will be final and binding.\n
+
+Bands are encouraged to bring their own gear/add-ons. Only drum kit and sound arrangements will be provided by the organizers.\n
+
+Top 30 bands from all over the nation will be invited to perform at Alcheringa\'15 Magnum Opus and battle for the prize money worth 2.5 Lacs.\n
+
+Prelims:\n
+
+1. You will be given a total time of 25 minutes which includes stage setup and sound check.\n
+
+2. Exceeding the given time will lead into penalty.\n
+
+** Top six bands out of the 30 will be selected for Finals:\n
+
+Finals\n
+
+1. A total performance time of 45 minutes will be given including sound-check.\n
+
+2. The performance must include atleast ONE original composition with a minimum duration of 3 minutes.\n
+
+3. Exceeding the given time will lead into penalty.\n
+
+** There will be points for originality.\n
+
+You are requested to book your tickets at the earliest and send us a confirmation regarding the same.\n
+
+Stay tuned to our facebook page for further updates! https://www.facebook.com/rockophonix\n</item>
+    </string-array>
+    <string-array name="hautecouture">
+        <item>Fashion Designing Competition</item>
+      <item>"Style is a way to say who you are without having to speak"\n
+- Rachel Zoe\n
+
+Design to enamour. Dress to thrill. Showcase the glamour. Let your beauty mesmerize and mystify. You are the queen of the runway. Ooze sexiness and class with every step. The spellbounding allure, the raised temperatures, the stunning models, the breathtaking ramp-walks and the magnificent attires. Witness the grandeur nuance of vogue under Haute Couture.</item>
+      <item>Minimum number of models per team is 6.\n
+
+Teams can take help from professional designers, choreographers, and makeup artists. Only 1 choreographer, make-up artist and designer will be accepted from one team. But these professionals will not be considered as a part of team and will not be eligible for the Best Choreographer, The Best Makeup Artist and the Best Designer Award.\n
+
+Choreographers, makeup artists, designers can also be ramp models.\n
+
+Every team will be given 5 minutes for each round (Curtain to curtain).\n
+
+On exceeding the time limit, negative points will be awarded.\n
+
+On exceeding the time limit, negative points will be awarded.\n
+
+The teams are responsible for their own music and sequence.\n
+
+Music is to be submitted in a pen-drive or in a CD in a compatible format compatible with Windows media player (preferably in mp3 format).\n
+
+The pen-drive or CD must contain all the music (for prelims round and the finals) with properly named files and folders in the required order.\n
+
+All music files must be submitted to the organizers at least 1 hour before start of the prelims.\n
+
+If lighting facility is to be availed, one person of the group can supervise the lighting. Otherwise it will be up to the lights group.\n
+
+Water, Fire and animals in any form will not be allowed on the stage on the ramp.\n
+
+Vulgarity in any form will not be allowed in the competition. So if the team feels any stunt could be termed as vulgar, it would be best to speak of it to the organizer before performing it on the stage.\n
+
+Organizers reserve the right to cancel any round and disqualify teams who do not adhere to the rules.\n
+
+The decision of the organizers will be considered to be the final one.\n
+
+Only selected teams will move to the final round.\n
+
+Rules might undergo slight changes depending on the situation.\n</item>
+    </string-array>
+    <string-array name="mrandmissalcheringa">
+        <item>Personality Contest</item>
+      <item>“Hide not your talents, they for use were made, What\'s a sundial in the shade?”\n
+
+It\'s all about the title! Those who don\'t wish to be just a part of the floating crowds in Alcheringa get the taste of royalty through this battle of talent, spontaneity, grace and beauty. The stakes are high and the competition tough but when it comes to these titles, everything is worth fighting for!\n</item>
+      <item>Registration form must be completely filled along with a recent colored photograph and the decision of the organizers will be considered final and binding in all matters.\n
+
+Candidates will be shortlisted on the basis of their replies to the questionnaire, for the Prelims, which you can find at our website www.alcheringa.in\n
+
+PRELIMS\n
+
+Round 1: Ramp walk cum Short introduction.\n 
+
+Round 2: Talent Round.\n
+
+Round 3: Common Question Round.\n
+
+FINALS\n
+
+Participant should wear a single dress of his/her choice.\n
+
+Round 1: Ramp Walk.\n
+
+Round 2: Talent Round.\n
+
+Round 3: Surprise Round.\n
+
+Round 4: Situation-reaction Round.\n
+
+Round 5: Judges Question Round.\n
+
+The details about the Surprise round will be provided at a later stage. Contact the organizers regarding this.\n
+
+The minimum age limit for this competition is 16 years.\n
+
+Requirements of any sort must be informed well before-hand both for prelims and finals.\n
+
+Any music or video file must be submitted to the organizers well in advance.\n
+
+The file name should have the format ParticipantName_ MrandMissAlcher. Eg.“GulshanChauhan_MrandMissAlcher.mp3”\n</item>
+    </string-array>
+    <string-array name="crossfade">
+        <item>DJing Competition</item>
+        <item>As the twilight falls, the sky turns dusky. The sun has played the trick, dusk is an illusion. Now the populace turns to you, for now it\'s for you to set the groove. Keep the trick going.The stage is set, the beats are yours, enthrall, enchant, enrapture! Become the masters of the mood, the creators of the melody.You are the puppeteer to whose rhythm they swings, to whose music they jump and to whose creation they jump. Amidst all this adulation, watch out for the coveted honor of being crowned the best. Become your idols, realize who you are, mix it and shake it in this edition of Crossfade-the DJ Contest.</item>
+      <item>SELECTION FOR PRELIMS\n
+
+Interested DJs should upload two mixes (.mp3 format preferably) on an online portal which will be available at our website www.alcheringa.in\n
+
+REMIX WILL NOT BE CONSIDERED AS AN ENTRY.\n
+
+Each mix should not exceed 7 minutes. It should be of minimum 5 minutes.\n
+
+The mix should contain at least 3 genres of music. For example, Rock, Hip-Hop/Rap, House, etc.\n
+
+The mix should have your own voice recorded in it somewhere to ensure that you made the mix. Ensure that it does not spoil the flow of the song and the decision of the organizers will be final and binding in all matters.\n
+
+Stick to the languages that most people know (English, Hindi and Punjabi), though a little local mix would be entertained.\n
+
+PRELIMS\n
+
+The DJs will be provided with the mixers.\n
+
+The combating DJs should carry their own music in the CD format as per their own choice.\n
+
+DJs can also bring their own mixers.\n
+
+Each combating DJ will be given 10 minutes for live mixing. Setting time cannot exceed 4 minutes. Summing up, the DJ will be given a total time of 14 minutes in and out.\n
+
+DJs if found using pre-looped tracks/ pre-extended mixes/ pre-cued tracks/ pre-pitched tracks will be disqualified.\n
+
+FINALS\n
 
 
 
+The DJs battling for the title in this round will be announced well before the event starts.\n
 
+Again, the combating DJs should carry their own music in the CD format as per their own choice.\n
 
+Each DJ will be given 10 minutes for performing stunts portraying his/her DJ-ing skills. The next 10 minutes would be for live mixing for each DJ. The setting time of 4 minutes should not be exceeded. In total, the DJ will be given 24 minutes in and out. This time duration may vary a bit according to the time constraints on the event).\n
+
+DJs if found using pre looped tracks/ pre-extended mixes/ pre-cued tracks/ pre-pitched tracks will be disqualified.\n</item>
+    </string-array>
+    <string-array name="roadiez">
+        <item>Alcheringa\'s Own version of Popular TV Show - Roadies</item>
+        <item>You trade in your reality for a role. You trade your sense for an act. You let go your freedom , the ability to feel , in exchange put a mask. And just when you look forward to seal the victory it hits you. You have been doomed. You always tried to fit in. But this game was for the misfits.That\'s not the end of it. You get back with every ounce of your energy. You stretch you shrink, you do everything to prove your mettle, to charm the populace. And then there is an applause, the crowd seals it for you. You are ecstatic. You are crowned the olive wreath. It is you who creates and you who destroys, so decide which path to follow, and the mental tenacity to conquer everything mother earth has in store for you this winter. Strategy, Scheming, Trudging ahead, Hop in, and let us know what it is you are made of?</item>
+      <item>The game is divided into three basic stages.\n
+
+QUALIFICATION\n
+
+All candidates are screened on the basis of their answers to the questionnaire which is available on our website (www.alcheringa.in) and only 20 participants qualify for the next round.\n
+
+JUSTIFICATION\n
+
+The selected candidates are asked to perform a series of challenging tasks to identify who can walk the talk.\n
+
+FINALS\n
+
+Five candidates selected from the previous rounds are tested for personality and appeal, as the auditorium filled with three thousand people heckle every move you make. Only the real roadie survives this round.\n</item>
+    </string-array>
+    <string-array name="custombrush">
+        <item>Digital Painting</item>
+        <item>Do you believe you can find a Van Gogh inside you without holding the tip ofthe brush against the paper ? Here is your chance to blend the cursor onto the screen and make the big picture speak for itself. Set up your mood and composition and explore the translation of going from the analog to digital.</item>
+      <item>Team Size: Solo\n
+
+Round(s): Direct online finals\n
+
+Judging criteria:\n
+
+Graphics, Originality, Creativity, technical quality\n
+
+Rules:\n
+
+1)Theme: To be declared soon.\n
+
+2)Entries are limited to 2 photo per person.\n
+
+3)All entries must be in digital format and at the highest resolution possible in a .jpeg, .jpg, or .png format. Files submitted may not be larger than 10 megabytes.\n
+
+4)All entrants must hold exclusive rights to the photographs they submit and by entering are claiming such ownership.\n
+
+5)Participants should be ready with their main work-file and brushes to submit when asked.\n</item>
+    </string-array>
+    <string-array name="minimalposter">
+        <item>Poster Designing Competition</item>
+        <item>It is always the simple that produces the marvelous. (Amelia Barr) .Ever caught yourself gazing up a simple yet catchy poster? Do you dream to be see your simple yet convincing picture and win it for the crowd ? Alcheringa is the place that offers you to pour out your imagination and illustrate one such minimal poster. There are great prizes to be won!</item>
+      <item>Team Size: Solo\n
+
+Round(s): Direct online finals\n
+
+Judging criteria:\n
+
+Relevance to theme, Originality, Graphics, Creativity\n
+
+Rules:\n
+
+1)Theme: To be declared soon\n
+
+2)Entries are limited to 2 photos per person.\n
+
+3)All entries must be in digital format and at the highest resolution possible in a .jpeg, .jpg, or .png format. Files submitted may not be larger than 10 megabytes.\n
+
+4)All entrants must hold exclusive rights to the photographs they submit and by entering are claiming such ownership.\n</item>
+    </string-array>
+    <string-array name="alcherdivahunk">
+        <item>Online Beauty Peagent</item>
+        <item>If you are the person who gives a thousand expressions in the same pose and likes getting pictures clicked of herself/himself, send us your best pictures and you may be honoured as the "Alcher Diva" or the "Alcher Hunk" of the year.</item>
+        <item>Participates are required to submit a full length photo of themselves.</item>
+    </string-array>
+    <string-array name="snapthrillz">
+        <item>Online Photography Competition</item>
+        <item>In this digitalized world of today, the best way to make memories is to get clicked. Photography is one of the finest art of present world. Let\'s cherish this art via the online photography competition : Snapthrillz. From amateurs to professional photographers, every photography lover can participate.</item>
+      <item>RULES\n
+
+Team size:Solo\n
+
+Round(s): Direct online finals\n
+
+Judging Criteria: Theme implementation, Creativity, Originality\n
+
+Rules:\n
+
+Theme: Juxtapose.\n
+
+1)Photographs of not more than 10 MB in size must be submitted online and the Organisers may request for higher resolution images subsequently.\n
+
+2)Each participant can submit upto two (2) entries.\n
+
+3)Digital manipulation that distorts the reality of the photos will not be allowed. Only basic enhancements such as sharpening, contrast adjustment, or simple cropping will be allowed.\n
+
+4)Entries must be the original and unpublished work of the participant and copyright owner.\n</item>
+    </string-array>
+    <string-array name="addict">
+        <item>Ad making Competition</item>
+        <item>Advertising has never been easy, but time to time brilliant ideas have managed to steal the attention of the busy world. Advertisement has become such an essential tool of this modern world that imagining a world without ads is impossible. A true advertisement is one that connects people to the brand and reflects in the sale. Be one such great advertiser and create your own one minute ad giving your product the best possible marketing.</item>
+      <item>RULES\n
+
+Team Size: No constraints (the video may or may not include Actors)\n
+
+Time limit: No lower limit, but the video should not be longer than 120 seconds.\n
+
+Theme:To be declared soon.\n
+
+Judging criteria: Creativity, Portrayal of brand image, message conveyed to the society and the overall impact of the video. Bonus marks for technical innovations\n</item>
+    </string-array>
+    <string-array name="directorscut">
+        <item>Short Movie Making</item>
+        <item>Tired of the typical cinema?? Do you think that the time has arrived to come out of the cliched movies and show the world what real movies are about? If you agree and want to show the world your direction skills, then the stage is set for you to bring a change by depicting your ideas with the help of this moviemaking competition.</item>
+      <item>RULES\n
+
+1) The theme as well as the genre of the short move are not imposed.\n
+
+2) The short film should not last for more than 12 minutes (credits included).\n
+
+3) Short movies which were not shot in Hindi or English shall have English subtitles.\n
+
+JUDGING CRITERIA\n
+
+1) Story telling\n
+
+2) Creativity and Originality\n
+
+3) Screenplay and Actor\'s Performance\n
+
+4) Technical Execution : Camera/Sound/Light/Editing\n
+
+5) Overall Impression\n</item>
+    </string-array>
+    <string-array name="typography">
+        <item>Font Designing Competition</item>
+        <item />
+        <item>Participlants are required to design a complete set of fonts.</item>
+    </string-array>
+    <string-array name="doodlepad">
+        <item>Doodle Making Competition</item>
+        <item>You must have thought how a doodle artist would have started his creation , so this time we provide you a small element of a doodle and all you have to do is to complete that doodle (without editing the given element) from your own creativity.</item>
+      <item>RULES\n
+
+Theme: North East India\n
+
+Participants are required to incorporate atleast one (1) element from North East India into their doodle.\n
+
+Take a print out of the template on an A4 size sheet Paper.\n
+
+Scan and submit your doodle at "bit.ly/DoodlePad16".\n
+
+JUDGING and SELECTION PROCEDURES:\n
+
+Artistic merit - Drawing skills and use of color.\n
+
+Creativity and originality - Considering the representation of your theme, as well as the unique and novel approach to the Doodle.\n
+
+Communication of the your theme in both the drawing and supporting statement - how well the Entrants explain what their doodle represents in the supporting statement and drawing.\n</item>
+    </string-array>
+    <string-array name="thebigpicture">
+        <item>Collage Making Competition</item>
+      <item>"Art washes away from the soul the dirt of everyday life."\n
+
+To be creative is to be intellectual. It is easier to express your feelings in words but it\'s not an easy task to portray your emotions by rearranging bits of waste paper into a meaningful expression of one\'s thoughts. Alcheringa gives you the opportunity to rise through the weeds of desolate living and come prove yourself by creating "THE BIG PICTURE" we are looking for, a picture that sings away the creativity of its creator in the first look</item>
+      <item>Rules\n
+1) The materials for the craft will be provided on the spot by the organizers. Any material other than this cannot be used.\n
+
+2) Old magazine, paper, poster, scissors, adhesive etc. will be provided to every team.\n
+
+3) Teams of maximum 3 members.\n
+
+4) Maximum time limit is 3 hours.\n</item>
+    </string-array>
+    <string-array name="inkthetee">
+        <item>T Shirt Painting Competition</item>
+        <item>A T-shirt is no longer a cloth. It is much more than that. It is the expression of a person\'s choices. Its not the era of flaunting expensive brands but its the revolutionary age of making statements through the Tee you wear. But to turn a piece of cloth into an assertion requires a designer of utmost creativity. Do you think you possess that creativity? Then come to Alcheringa and make a Statement!</item>
+      <item>Rules\n
+1) Only a white T-shirt, fabric colours and paint brushes will be provided by the organizers.\n
+
+2) Participating teams need to design the T-shirt in accordance with a given theme. The theme for the event would be given by the organizers on the spot of the contest.\n
+
+3) Maximum team size is of 2 members.\n
+
+4) Maximum time limit is 3 hours.\n</item>
+    </string-array>
+    <string-array name="strokesofgenius">
+        <item>Sketching Competition</item>
+        <item>A sketch a day keeps dullness away! Alcheringa brings you "Strokes of Genius", a simple sketching competition based on the given theme or topic which majorly focuses on sketching and innovative skills of the participants. So bring out the artistic genius in you by expressing your feelings on a sheet of paper using the multiple shades of grey.</item>
+      <item>Rules\n
+1) To make the sketch only drawing sheet, charcoal, chalks and sketching pencils of various grades will be provided by the organizers.\n
+
+2) The theme for the contest will be declared by the organizers on the spot of the contest.\n
+
+3) Maximum team size is of 2 members.\n
+
+4) Time limit for the competition is 3 hours.\n</item>
+    </string-array>
+    <string-array name="comiccon">
+        <item>Comic Strip Designing Competition</item>
+      <item>Who hasn\'t spent hours reading comic books hidden inside the school books pretending to be deeply engrossed in the preparation for an exam while secretly relishing while secretly relishing in the magical world of comic characters.\n
+The world of comics has always captured the imaginations of people making them forget all else. But gone are the days when spiderman,superman and batman were enough to be the food for our imagination. We want a new dish on the platter. Are you the person who can give us a reason to shut down our PC\'s and pick up a comic again?</item>
+      <item>Rules\n
+1) The organizers will be providing the participants with sheets, sketch pens and pencil colours. However, contestants can also bring their own colours to make their comic strip more appealing.\n
+
+2) Maximum team size is of 4 members.\n
+
+3) Time limit for the competition is 3 hours.\n</item>
+    </string-array>
+    <string-array name="rangoli">
+        <item>Rangoli Making Competition</item>
+        <item>The tradition of Rangoli goes back around 5000 years as a decorative folk art in India. Not only is it a beautiful way to decorate courtyards, floors and entrances of houses, but also has religious and cultural meanings. It reminds us of the bright colours and intricate designs, of the festivities and of the basic essence of traditions. Alcheringa, in an effort to promote Indian Culture and Art brings back our nostalgic childhood days in the form of a Rangoli competition. Use the given colours to make impressive and enthralling Rangoli patterns Let\'s bring back the childhood innocence, let\'s revive the Rangoli.</item>
+      <item>Rules\n
+1) The participants need to design the rangoli based on the theme given by the organizers on the spot.\n
+
+2) Maximum team size is of 2 members.\n
+
+3) Each team will be provided with a space of 2X2 feet for making their rangoli.\n
+
+4) The participants will be provided with blank sheets, pens/pencils and chalks for designing the rangoli and also with colours for decorating it.\n
+
+5) Time limit for the competition is 3 hours.\n</item>
+    </string-array>
+    <string-array name="faceless">
+        <item>Mask Painting Competition</item>
+        <item>Isn\'t it exciting to have numerous faces? Isn\'t it exciting to have the face of whoever you want? To have the power of designing your own face? Alcheringa gives you the opportunity to design and paint your own mask! Enjoy the faceless escapade.</item>
+      <item>Rules\n
+1) Participants will be provided with a plain mask and colours to paint it with by the organizers. The organizers will also declare a theme for the contest on the spot.\n
+
+2) Maximum team size is of 2 members.\n
+
+3) Time limit for the competition is 3 hours.\n</item>
+    </string-array>
+    <string-array name="theatrix">
+        <item>Stage Drama</item>
+      <item>Movies will make you famous; Television will make you rich; But theatre will make you good.” \n
+- Terrence Mann\n
+
+The theatre is certainly a place for learning about the brevity of human glory: oh all those wonderful glittering absolutely vanished pantomime! Now I shall abjure magic and become a hermit : put myself in a situation where I can honestly say that I have nothing else to do but to learn to be good.</item>
+      <item>RULES\n
+Online registrations are advised but on-spot registrations are also allowed.\n
+
+The performance must only be in Hindi, English or Assamese.The minimum age limit for this competition is 12 years.\n
+
+The event will consist of two rounds:\n
+
+PRELIMS\n
+Time limit (curtain to curtain) for the prelims is 15 minutes. A part of the finals will be performed in the prelims.\n
+
+FINALS\n
+Time limit (curtain to curtain) for the Finals is 50 minutes. Three teams would qualify for the finals. Usage of fire/water/smoke is not allowed.\n
+
+The performance can also be a musical drama.\n
+
+Two standing microphones, two collar microphones and two cordless microphones will be provided to each team for the performance.\n
+
+Participants must bring their own laptops for sound effects. They must contact the organizers an hour before their performance if they want background tracks to be played during the play.\n
+
+Live music is also allowed. All required instruments and props must be brought by the team itself. Only two technicians per team will be allowed\n
+
+Props are allowed. No props other than chairs and table can be expected from the organizers. All requests for the same should be made 24 hours prior the performance.\n
+
+Issues like crossing time limits, using abusive language or vulgarity will lead to negative marking and it will be completely over judge\'s discretion.\n
+
+JUDGING CRITERIA\n
+Performance in acting (dialogue delivery, expressions, body movements) Presentation encompassing costumes, music, props and use of stage.\n
+
+Successfully depicting the plot or theme.\n
+
+Originality.\n</item>
+    </string-array>
+    <string-array name="hallabol">
+        <item>Street Play</item>
+        <item>“I want to give the audience a hint of a scene. No more than that. Give them too much and they won\'t contribute anything themselves. Give them just a suggestion and you get them working with you. That\'s what gives the theatre meaning: when it becomes a social act.” - Orson Welles</item>
+      <item>RULES\n
+Online registrations are advised but on-spot registrations are also allowed.\n
+
+Number of members in a team must not be less than 6. Time limit for the performance is 20 minutes. Usage of fire/water/smoke/gulaal is not allowed. Musical instruments like dhols and dafalis are allowed. No other instrument is allowed.\n
+
+The performance must only be in Hindi, English or Assamese. The minimum age limit for this competition is 12 years.\n
+
+Issues like crossing time limits, using abusive language or vulgarity will lead to negative marking and it will be completely over judge\'s discretion.\n
+
+JUDGING CRITERIA\n
+Performance in acting.(dialogue delivery, expressions, body movements)\n
+
+Presentation encompassing costumes, music, props and use of stage.\n
+
+Successfully depicting the plot or theme.\n
+
+Originality.\n</item>
+    </string-array>
+    <string-array name="whysoserious">
+        <item>Stand Up Comedy Act</item>
+      <item>“Stand up comedy in general is the ultimate form of free speech, because you get to poke holes in all the pretentious bubbles politicians and pundits and popes and pretenders try to float over our heads.”
+Stand-up comedy and poverty. Those were my two main endeavors. The thing about stand-ups is you can\'t really get good unless you\'re failing in front of a large number of people. That makes stand-up comedy unique: you need a tremendous amount of reserve within you to take the rejection from the audience, and without it, you can\'t do anything. If you like making other’s smile then stand up comedy is the best thing that you can do.</item>
+      <item>RULES\n
+Online registrations are advised but on-spot registrations are also allowed.\n
+
+Maximum no. of members in a team is 3.\n
+
+Time limit for the performance is 5 minutes.\n
+
+Usage of fire/water/smoke/gulaal is not allowed.\n
+
+Performance can be either in Hindi or in English.\n
+
+The minimum age limit for this competition is 12 years.\n
+
+Issues like crossing time limits, using abusive language or vulgarity will lead to negative marking and it will be completely over judge\'s discretion.\n</item>
+    </string-array>
+    <string-array name="mute">
+        <item>Mime Competition</item>
+      <item>“Never get a mime talking. He won\'t stop.”\n
+We need a type of theatre which not only releases the feelings, insights and impulses possible within the particular historical field of human relations in which the action takes place, but employs and encourages those thoughts and feelings which help transform the field itself. If you are new to theatre or don’t have time for a complete drama then this competition is for you. Theme will be given one day prior to the event.</item>
+      <item>RULES\n
+Online registrations are advised but on-spot registrations are also allowed.\n
+
+Each team can have 2-4 members.\n
+
+Reliance on mode of speech is strictly prohibited.\n
+
+Time limit for the performance (empty to empty stage) is 15 minutes.\n
+
+Usage of fire/water/smoke/gulaal is not allowed.\n
+
+Use of props is strictly prohibited.\n
+
+A team may have one backstage manager, one light in charge, one sound in-charge and a makeup artist.\n
+
+The minimum age limit for this competition is 12 years.\n
+
+All clothes and accessories have to be arranged by the participating team itself.\n
+
+Teams are expected to bring their own music on CD or pen drive for their performance.\n
+
+Issues like crossing time limits or exhibiting vulgarity will lead to negative marking and it will be completely over judge\'s discretion.\n
+
+JUDGING CRITERIA\n
+Performance in acting (expressions, body movements)\n
+
+Presentation encompassing costumes, music, use of stage\n
+
+Successfully depicting the plot or theme\n
+
+Marks for originality\n</item>
+    </string-array>
+    <string-array name="justaminute">
+        <item>Extempore Competition</item>
+      <item>"Talking for sixty second doesn\'t sound like a difficult task, does it? Well think again".\n
+
+JAM is an extempore event wherein your fluency in spoken English shall be put to test. Preliminary round is a written round wherein you will be required to ask questions that test your ingenuity and how well can you get around a situation. There will be mu ltiple consequent rounds where you need to speak flawlessly, or leave the floor to interjecting participants.</item>
+      <item>RULES\n
+Online registration is strongly encouraged although on the spot registration is available.\n
+
+Entries limited to 125 people.\n
+
+The participants are invited, in rotation, to speak for one minute on a given subject.\n
+
+You are supposed to speak fluently without any "hesitation, repetition or deviation" i.e. hesitation, repetition, stuttering, lisp, grammatical errors. In case of any such mistakes, other participants can "JAM" and start speaking.\n
+
+The first person to JAM gets to speak.\n
+
+You get points for each correct interjection or "JAM".\n
+
+The participant speaking at the end of 1 minute gets an extra point. Each round is for 5 minutes i.e. 5 subjects will be taken up in each round.\n
+
+The participant with the most points at the end of the round will move on to the next round.\n
+
+In case of a tie, the participant with the most JAMs goes through. If the tie is not resolved, a coin toss will be used.\n</item>
+    </string-array>
+    <string-array name="poetryslam">
+        <item>Poetry Reciting Competition</item>
+        <item>Poetry and performance. U always thought these were like oil and water, right? Not anymore. Alcheringa 2016 brings to you ‘Poetry Slam’. We are calling all the fans of the spoken word to come and be a part of this event being held for the first time in the history of Alcheringa.</item>
+      <item>Points are given for content and performance.\n
+
+The number of rounds will be based on the number of participants.\n
+
+The maximum number of rounds that can be held is 6.\n
+
+The time-limit is 4 minutes.\n
+
+No props or musical instruments are allowed.\n
+
+No background music allowed other than the music you can make from your own body.\n</item>
+    </string-array>
+    <string-array name="parlimentarydebate">
+        <item>An Academic Debate Event</item>
+        <item />
+      <item>The rule followed will be \'3 on 3\' parliamentary style of debating. Each team will comprise of three speakers and one adjudicator. Standard UADC rules will be followed.\n
+
+Click here for standard UADC rule.\n</item>
+    </string-array>
+    <string-array name="presscorps">
+        <item>Journalism competition</item>
+        <item>"The nation wants to know!" Always dreamt about doing this? Are you one of those people who always wished to uncover a huge story which no one knew about? Do you want to be a real life Tintin? Then this competition is for you. Fans of detective journalism or simply detective fiction, put on your thinking caps. Press corps is here.</item>
+      <item>RULES\n
+
+1. Online Registration is highly recommended. On spot registrations will also be available.\n 
+
+2. Only 2 participants per team.\n
+
+3. Each team will have to submit 5 newspaper articles in the following fields: International affairs, Sports, Business, Indian politics, "Surprise category".\n
+
+4. The details for the surprise category will be given at the start of the competition.\n
+
+5. Each interview will be recorded. Misquoting a source will lead to the gain of negative points.\n
+
+6. Each interview will be for 15-20 minutes.The exact time limit will be announced before the start of the event.\n
+
+7. The teams will get 3 hours to submit their articles.\n</item>
+    </string-array>
+    <string-array name="zephyr">
+        <item>Online Creative Writng Competition</item>
+      <item>It\'s been too long. You\'ve forgotten what you should\'ve remembered, and you remember what you shouldn\'t have. There is no greater agony than bearing an untold story inside.\n
+Let me share a secret with you. There is nothing to writing. You just have to sit to your desktop and bleed. For all your untold stories and verses we bring to you zephyr. This is an opportunity one simply doesn\'t miss.\n</item>
+      <item>RULES\n
+This event includes two categories:\n
+
+1. Short fiction\n
+
+2. Poetry\n
+
+Participants need to submit their entries through online form available onDire the website (www.alcheringa.in)\n
+
+Language: English, Hindi.\n
+
+You can take part in both categories but only one entry per category is allowed.\n</item>
+    </string-array>
+    <string-array name="mun">
+        <item>Model United Nations</item>
+      <item>Have you ever seen politicians squabble on TV, and thought to yourself, "I could do a much better job, if only I had this kind of power"? IITG MUN gives you the chance to see for yourself.\n
+
+The United Nations Organization (UNO/UN) is an international body designed to facilitate dialogue between nations. The topics under deliberation vary widely; from managing the economy to preventing war, from empowering women to protecting the environment — essentially, any issue that can be mitigated or settled by a governmental policy.\n
+
+The UN comprises of multiple committees, each geared towards addressing a certain variety of issues; for example, The United Nations Security Council deals with threats to international peace. Each committee has a list of member nations, and each nation on the list is invited to send one representative, called a delegate, to express the views of his or her nation within that committee.\n
+
+The MUN, or The Model United Nations, is a simulation of the actual UN. Participants pretend to represent a nation, and come together to discuss the very same issues being debated upon in the UN. This gives a normal person the opportunity to know what it\'s like to stand for something more than him/herself, and to experience the complicated verbal dance that politicians and delegates take part in every day.\n
+
+The MUN is a conclave for ideation by the fresh minds of our nation, to brainstorm solutions to problems plaguing our world. Participants learn to work through the tenuous relationships between nations as they deliberate towards a resolution — and they get to look nice in a suit and tie while they do it.\n</item>
+      <item>RULES\n
+PARTICIPATION:\n
+
+1. As a Delegate\n
+
+2. As an Executive Board Member\n
+
+Every committee is overseen by a group of two to four people called the executive board.\n
+
+This group functions as a mediator or invigilator, to ensure that the discussion remains on topic, and to settle any issues between dele 42 gates that interfere with the course of debate.\n
+
+3. As an International Press Member\n
+
+Just like there is media coverage of UN meetings, there is mock media coverage of MUN meetings.\n
+
+It is the job of the International Press to report as well as question and comment upon the proceedings taking place within the commit- tee walls. In doing so, it may very well alter the direction of the debate.\n
+
+BASIC INFORMATION:\n
+
+The participant applications will be out three months before the con - ference commences.\n
+
+All applications will be web-based and will be available on the website (www.iitgmun.org).\n
+
+The agendas of the committees will be communicated before the applications are opened.\n
+
+The Rules of Procedure and Background Guides will be made avail- able a month in advance of the conference\n</item>
+    </string-array>
+    <string-array name="melaquiz">
+        <item>Mela Quiz</item>
+      <item>M - Music,\n
+
+E - Entertainment,\n
+
+L - Literature,\n
+
+A - Arts\n</item>
+      <item>1. A team shall consist of max two persons.\n
+
+2. The decision of the quiz-master will be final and will not be subjected to any change.\n
+
+3. The participants shall not be allowed to use mobile or other electronic instruments.\n
+
+4. The Quizzes will have prelims followed by finals (For the finals a specific number of teams will qualify which shall be decided by the Quizmaster)
+
+5. Audience shall not give any hints or clues to the competitors.\n
+
+6. Replacement of any participant of a team is not allowed after registration.\n
+
+7. Teams selected for the final rounds will be allowed to give themselves an appropriate name related to the competition by which they may want to be known\n</item>
+    </string-array>
+    <string-array name="spentquiz">
+        <item>SPENT Quiz</item>
+        <item />
+      <item>1. A team shall consist of max two persons.\n
+
+2. The decision of the quiz-master will be final and will not be subjected to any change.\n
+
+3. The participants shall not be allowed to use mobile or other electronic instruments.\n
+
+4. The Quizzes will have prelims followed by finals (For the finals a specific number of teams will qualify which shall be decided by the Quizmaster)
+
+5. Audience shall not give any hints or clues to the competitors.\n
+
+6. Replacement of any participant of a team is not allowed after registration.\n
+
+7. Teams selected for the final rounds will be allowed to give themselves an appropriate name related to the competition by which they may want to be known\n</item>
+    </string-array>
+    <string-array name="generalquiz">
+        <item>General Quiz</item>
+        <item />
+      <item>1. A team shall consist of max two persons.\n
+
+2. The decision of the quiz-master will be final and will not be subjected to any change.\n
+
+3. The participants shall not be allowed to use mobile or other electronic instruments.\n
+
+4. The Quizzes will have prelims followed by finals (For the finals a specific number of teams will qualify which shall be decided by the Quizmaster)
+
+5. Audience shall not give any hints or clues to the competitors.\n
+
+6. Replacement of any participant of a team is not allowed after registration.\n
+
+7. Teams selected for the final rounds will be allowed to give themselves an appropriate name related to the competition by which they may want to be known\n</item>
+    </string-array>
+    <string-array name="businessquiz">
+        <item>Business Quiz</item>
+        <item />
+      <item>1. A team shall consist of max two persons.\n
+
+2. The decision of the quiz-master will be final and will not be subjected to any change.\n
+
+3. The participants shall not be allowed to use mobile or other electronic instruments.\n
+
+4. The Quizzes will have prelims followed by finals (For the finals a specific number of teams will qualify which shall be decided by the Quizmaster)
+
+5. Audience shall not give any hints or clues to the competitors.\n
+
+6. Replacement of any participant of a team is not allowed after registration.\n
+
+7. Teams selected for the final rounds will be allowed to give themselves an appropriate name related to the competition by which they may want to be known\n</item>
+    </string-array>
+    <string-array name="bollywoodquiz">
+        <item>Bollywood Quiz</item>
+        <item />
+      <item>1. A team shall consist of max two persons.\n
+
+2. The decision of the quiz-master will be final and will not be subjected to any change.\n
+
+3. The participants shall not be allowed to use mobile or other electronic instruments.\n
+
+4. The Quizzes will have prelims followed by finals (For the finals a specific number of teams will qualify which shall be decided by the Quizmaster)
+
+5. Audience shall not give any hints or clues to the competitors.\n
+
+6. Replacement of any participant of a team is not allowed after registration.\n
+
+7. Teams selected for the final rounds will be allowed to give themselves an appropriate name related to the competition by which they may want to be known\n</item>
+    </string-array>
+    <string-array name="basketball">
+        <item>3 vs 3 Basketball</item>
+        <item>Think you rule the court? Love to dazzle to the crowd with your crossovers and ankle breakers? Have got the perfect jumper? Then fight it out with the best and prove to the world that you have got hoops in your blood once and for all!</item>
+      <item>RULES\n
+MEN:\n
+The game is played on a half-court, with one basket. A size 7 standard (749â€“780 mm/29.5â€“30.7 in) court will be used for the matches.\n
+
+The game is a single period of 10 minutes with sudden death at 21 points. The winner is the first team to score 21 or the team with the highest score at the end of the 10 minutes.\n
+
+WOMEN:\n
+The game is played on a half-court, with one basket. A size 6 standard (724â€“754 mm/28.5â€“29.7 in) court will be used for the matches.\n
+
+The game is a single period of 8 minutes with sudden death at 15 points. The winner is the first team to score 15 or the team with the highest score at the end of the 8 minutes.\n
+
+COMMON RULES:\n
+(Applicable to both men and women) Each team consists of three players and one substitute.\n
+
+The minimum age limit for this competition is 15 years.\n
+
+A coin toss will be held immediately before the game. The winning team can choose to take possession of the ball at the start of the game, or take the first possession of a potential overtime period.\n
+
+There are no jump balls at any time in the game; neither is there an alternating possession rule. In any held ball situation, the defensive team is granted possession. Every successful shot inside the arc is awarded one point, while every successful shot behind the arc is awarded two points.\n
+
+A tie in regulation leads to an untimed overtime period, which is won by the first team to score points in overtime. If a foul is committed that results in the non-fouling team retaining possession â€” i.e., a technical or "unsportsmanlikeâ€ foul â€” the non-fouling team will receive the exchange.\n
+
+A 12-second shot clock is used. If the defense gains possession of the ball within the arc, by a steal, a block or a rebound, the team must move the ball behind the arc before being allowed to take a shot. After a made basket or free throw, play restarts with a player from the non-scoring team taking the ball directly under the basket and dribbling or passing it to a point behind the arc. The defense is not allowed to play for the ball inside the block/charge semi-circle under the basket.\n
+
+Each team is allowed one timeout. (The officials may still stop the game in case of player injury or other dangerous situations). Substitution is allowed only during a dead-ball situation. Individual personal foul counts are not kept.\n
+
+In other words, players cannot be disqualified on the basis of personal fouls. However, a player who commits two unsportsmanlike fouls is disqualified. Fouls during the act of shooting inside the arc are awarded 1 free throw, whilst fouls during the act of shooting behind the arc are awarded 2 free throws. Technical fouls (including unsportsmanlike fouls) result in two free throws plus possession of the ball.\n</item>
+    </string-array>
+    <string-array name="armwrestling">
+        <item>Arm Wrestling</item>
+        <item>On that Sunday evening before supper at your friends place, or on that holiday you had with your cousins, or in between class when you had nothing better to do and sought a way to become the cynosure of the class, and before you lost your way in the winding alleys of studies, college and life, what did you do? You Arm-Wrestled! Alcheringa gives you a chance to redeem yourself and win your muscles\' worth.</item>
+      <item>RULES\n
+Participants can only register as individuals and not as a team. The tournament will follow a knockout format.\n
+
+All matches will follow a best of three format.\n
+
+All the rules stated by the US Arm Wrestling Association will be followed.\n
+
+All referee decisions will be final and irrefutable.\n
+
+Any player caught using any objectionable item or using any unfair means will be disqualified.\n
+
+Any misconduct with the referee or others will directly lead to the disqualification of the player.\n</item>
+    </string-array>
+    <string-array name="gullycricket">
+        <item>Gully Cricket</item>
+        <item>The version of cricket we used to play in streets in our childhood.</item>
+      <item>RULES\n
+On Spot registrations will be available, but online registration is advised. Offline registration is subject to availability and will be strictly based on "First Come First Serveâ€ basis.\n
+
+Matches will be played with a tennis ball.\n
+
+Equipment (bat and ball) will be provided.\n
+
+Maximum team size is 3 players.\n
+
+Rules of the game will be briefed on the spot.\n
+
+The organizers reserve the right to alter rules and/or schedule in case of any unforeseen circumstances.\n</item>
+    </string-array>
+    <string-array name="football">
+        <item>5 on 5 Football</item>
+        <item>This shorter version of Football is your shot at glory and a chance for you to vindicate your love for the game. Held in one of the football hotspots of the country, this 5-on-5 competition will put your mettle and skills to test unlike any other. Come, play your best shot!</item>
+      <item>RULES\n
+A total of 64 teams for Boys will be registered.\n
+
+On Spot registrations will be available, but online registration is advised. Offline registration is subject to availability and will be strictly based on "First Come First Serveâ€ basis.\n
+
+Participants may register as teams of a minimum of 5 and a maximum of 7 members.\n
+
+Only five players per team (including the goalkeeper) will be allowed to play at a time.\n
+
+Matches will constitute of two halves of 10 minutes, each with a 4 minute break in between. However, a match will be over then and there if a team manages to get a 3-goal lead over the opponent.\n
+
+In case of a tie, teams will play sudden death "golden goalâ€ in extra time to determine the winner over 2 halves of 4 minutes each. A draw at the end of Extra Time will be decided by a Penalty Shootout.\n
+
+The Off-side rule will â€˜not\' be followed.\n
+
+Players will not be allowed to play barefoot. Use of normal sport sport shoes or football studs is allowed. We also encourage you to get your own skin guards, which are of prime importance for your safety. Rolling Substitutions will be allowed.\n
+
+No player can register with more than one team during the entire tournament. Also teams once knocked out will not be registered again. The dimensions of the field will be 91.4m x 55m.\n
+
+Possession of any sharp or metal object that can cause any injury during the play will directly lead to the disqualification of the team.\n
+
+The decision of the Match Referees will be binding on all issues, and will not be subject to any post match reviews.\n
+
+All other rules will essentially be followed according to FIFA standards.\n
+
+The tournament director reserves the right to alter the rules and/or schedule in case of unforeseen circumstances.\n</item>
+    </string-array>
 </resources>

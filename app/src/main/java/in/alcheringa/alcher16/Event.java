@@ -113,10 +113,147 @@ public class Event extends AppCompatActivity {
                 name=bundle.getString("eventname");
             }
 
+            switch (name)
+            {
+                case "Raga High":
+                    listStrings=getResources().getStringArray(R.array.ragahigh);
+                    break;
+                case "Voice Of Alcheringa":
+                    listStrings=getResources().getStringArray(R.array.voiceofalcheringa);
+                    break;
+                case "Unplugged":
+                    listStrings=getResources().getStringArray(R.array.unplugged);
+                    break;
+                case "Electric Heels":
+                    listStrings=getResources().getStringArray(R.array.electricheels);
+                    break;
+                case "Step Up":
+                    listStrings=getResources().getStringArray(R.array.stepup);
+                    break;
+                case "So You Think You Can Dance":
+                    listStrings=getResources().getStringArray(R.array.soyouthinkyoucandance);
+                    break;
+                case "Nach Baliye":
+                    listStrings=getResources().getStringArray(R.array.nachbaliye);
+                    break;
+                case "Navras":
+                    listStrings=getResources().getStringArray(R.array.navras);
+                    break;
+                case "Footloose":
+                    listStrings=getResources().getStringArray(R.array.footloose);
+                    break;
+                case "Rock-o-Phonix":
+                    listStrings=getResources().getStringArray(R.array.rockophonix);
+                    break;
+                case "Haute Couture":
+                    listStrings=getResources().getStringArray(R.array.hautecouture);
+                    break;
+                case "Mr and Miss Alcheringa":
+                    listStrings=getResources().getStringArray(R.array.mrandmissalcheringa);
+                    break;
+                case "Crossfade":
+                    listStrings=getResources().getStringArray(R.array.crossfade);
+                    break;
+                case "Roadiez":
+                    listStrings=getResources().getStringArray(R.array.roadiez);
+                    break;
+                case "Custom Brush":
+                    listStrings=getResources().getStringArray(R.array.custombrush);
+                    break;
+                case "Minimal Poster":
+                    listStrings=getResources().getStringArray(R.array.minimalposter);
+                    break;
+                case "Alcher Diva/Hunk":
+                    listStrings=getResources().getStringArray(R.array.alcherdivahunk);
+                    break;
+                case "Snapthrillz":
+                    listStrings=getResources().getStringArray(R.array.snapthrillz);
+                    break;
+                case "AD-Dict":
+                    listStrings=getResources().getStringArray(R.array.addict);
+                    break;
+                case "Director/'s Cut":
+                    listStrings=getResources().getStringArray(R.array.directorscut);
+                    break;
+                case "Typography":
+                    listStrings=getResources().getStringArray(R.array.typography);
+                    break;
+                case "Doodle Pad":
+                    listStrings=getResources().getStringArray(R.array.doodlepad);
+                    break;
+                case "The Big Picture":
+                    listStrings=getResources().getStringArray(R.array.thebigpicture);
+                    break;
+                case "Ink The Tee":
+                    listStrings=getResources().getStringArray(R.array.inkthetee);
+                    break;
+                case "Stroke Of Genius":
+                    listStrings=getResources().getStringArray(R.array.strokesofgenius);
+                    break;
+                case "Comic Con":
+                    listStrings=getResources().getStringArray(R.array.comiccon);
+                    break;
+                case "Rangoli":
+                    listStrings=getResources().getStringArray(R.array.rangoli);
+                    break;
+                case "Faceless":
+                    listStrings=getResources().getStringArray(R.array.faceless);
+                    break;
+                case "Theatrix":
+                    listStrings=getResources().getStringArray(R.array.theatrix);
+                    break;
+                case "Halla Bol":
+                    listStrings=getResources().getStringArray(R.array.hallabol);
+                    break;
+                case "Why So Serious":
+                    listStrings=getResources().getStringArray(R.array.whysoserious);
+                    break;
+                case "Mute":
+                    listStrings=getResources().getStringArray(R.array.mute);
+                    break;
+                case "Just A Minute":
+                    listStrings=getResources().getStringArray(R.array.justaminute);
+                    break;
+                case "Poetry Slam":
+                    listStrings=getResources().getStringArray(R.array.poetryslam);
+                    break;
+                case "Parliamentary Debate":
+                    listStrings=getResources().getStringArray(R.array.parlimentarydebate);
+                    break;
+                case "Press Corps":
+                    listStrings=getResources().getStringArray(R.array.presscorps);
+                    break;
+                case "Zephyr":
+                    listStrings=getResources().getStringArray(R.array.zephyr);
+                    break;
+                case "MUN":
+                    listStrings=getResources().getStringArray(R.array.mun);
+                    break;
+                case "3 v 3 Basketball":
+                    listStrings=getResources().getStringArray(R.array.basketball);
+                    break;
+                case "Arm Wrestling":
+                    listStrings=getResources().getStringArray(R.array.armwrestling);
+                    break;
+                case "Gully Cricket":
+                    listStrings=getResources().getStringArray(R.array.gullycricket);
+                    break;
+                case "5 on 5 Football":
+                    listStrings=getResources().getStringArray(R.array.football);
+                    break;
+                case "MELA Quiz":
+                    listStrings=getResources().getStringArray(R.array.melaquiz);
+                    break;
+                case "Entertainment Quiz":
+                    listStrings=getResources().getStringArray(R.array.generalquiz);
+                    break;
+                default:
+                    listStrings=getResources().getStringArray(R.array.melaquiz);
+            }
+
             switch (tabposition)
             {
                 case 0:
-                    listStrings=getResources().getStringArray(R.array.ragahigh);
                     layout = inflater.inflate(R.layout.event_tab1, container, false);
                     TextView tvTag=(TextView) layout.findViewById(R.id.event_tagline);
                     TextView tvDesc=(TextView) layout.findViewById(R.id.event_desc);
