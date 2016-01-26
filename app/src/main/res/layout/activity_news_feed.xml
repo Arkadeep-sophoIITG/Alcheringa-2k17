@@ -8,7 +8,12 @@
         layout="@layout/tool_bar"
         ></include>
 
-    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <ListView
+        android:layout_below="@+id/tool_bar"
+        android:id="@+id/list_news"
+        android:padding="5dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+    </ListView>
 
 </RelativeLayout>
