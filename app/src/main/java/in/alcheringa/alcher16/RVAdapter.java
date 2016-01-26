@@ -1,12 +1,12 @@
 package in.alcheringa.alcher16;
 
+import android.content.Intent;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.TextView;
 
 import java.util.List;
 
@@ -18,15 +18,21 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.CViewHolder> {
     public static class CViewHolder extends RecyclerView.ViewHolder {
 
         CardView cv;
-        TextView personName;
         ImageView personPhoto;
 
 
-        CViewHolder(View itemView) {
+        CViewHolder(final View itemView) {
             super(itemView);
             cv = (CardView)itemView.findViewById(R.id.card_view_concerts);
-            personName = (TextView)itemView.findViewById(R.id.cardTextView);
             personPhoto = (ImageView)itemView.findViewById(R.id.person_photo);
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent mIntent = new Intent(itemView.getContext(), ProNight.class);
+                    mIntent.putExtra("position", getAdapterPosition());
+                    itemView.getContext().startActivity(mIntent);
+                }
+            });
         }
     }
 
@@ -49,8 +55,7 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.CViewHolder> {
     }
 
     @Override
-    public void onBindViewHolder(CViewHolder personViewHolder, int i) {
-        personViewHolder.personName.setText(persons.get(i).name);
+    public void onBindViewHolder(final CViewHolder personViewHolder, int i) {
         personViewHolder.personPhoto.setImageResource(persons.get(i).photoId);
     }
 

@@ -1,14 +1,13 @@
 package in.alcheringa.alcher16;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.ImageView;
 
 import com.mikepenz.materialdrawer.Drawer;
 import com.mikepenz.materialdrawer.DrawerBuilder;
@@ -45,8 +44,6 @@ public class Concerts extends AppCompatActivity {
                 })
                 .build();
         drawer.setSelection(1);
-        ImageView imageView = (ImageView) findViewById(R.id.concertImageView);
-        imageView.setImageResource(R.drawable.a);
         rv = (RecyclerView)findViewById(R.id.rv);
         rv.setHasFixedSize(true);
         LinearLayoutManager llm = new LinearLayoutManager(Concerts.this);
@@ -58,10 +55,10 @@ public class Concerts extends AppCompatActivity {
     }
     private void initializeData(){
         concertItem = new ArrayList<>();
-        concertItem.add(new ConcertItem("Saaz",  R.drawable.a));
-        concertItem.add(new ConcertItem("Blitzkrieg", R.drawable.b));
-        concertItem.add(new ConcertItem("Crescendo", R.drawable.c));
-        concertItem.add(new ConcertItem("Juggernaut", R.drawable.a));
+        concertItem.add(new ConcertItem("Saaz",  R.drawable.saaz));
+        concertItem.add(new ConcertItem("Blitzkrieg", R.drawable.blitz));
+        concertItem.add(new ConcertItem("Crescendo", R.drawable.crescendo));
+        concertItem.add(new ConcertItem("Juggernaut", R.drawable.jugger));
     }
 
     private void initializeAdapter(){
@@ -71,8 +68,6 @@ public class Concerts extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_concerts, menu);
         return true;
     }
 

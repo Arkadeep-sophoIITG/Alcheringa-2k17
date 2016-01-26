@@ -1,13 +1,12 @@
 package in.alcheringa.alcher16;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.GridView;
 import android.widget.ImageView;
 
 import com.mikepenz.materialdrawer.Drawer;
@@ -42,7 +41,7 @@ public class Competitions extends AppCompatActivity {
                 .build();
         drawer.setSelection(1);
         main =(ImageView) findViewById(R.id.image_comp_main);
-        main.setImageResource(R.drawable.a);
+        main.setImageResource(R.drawable.comp);
         main.setScaleType(ImageView.ScaleType.FIT_XY);
 
         i0 = (ImageView) findViewById(R.id.comp_grid_iv1);
@@ -55,15 +54,15 @@ public class Competitions extends AppCompatActivity {
         i7 = (ImageView) findViewById(R.id.comp_grid_iv8);
         i8 = (ImageView) findViewById(R.id.comp_grid_iv9);
 
-        i0.setImageResource(R.drawable.a);
-        i1.setImageResource(R.drawable.b);
-        i2.setImageResource(R.drawable.c);
-        i3.setImageResource(R.drawable.c);
-        i4.setImageResource(R.drawable.b);
-        i5.setImageResource(R.drawable.a);
-        i6.setImageResource(R.drawable.a);
-        i7.setImageResource(R.drawable.b);
-        i8.setImageResource(R.drawable.c);
+        i0.setImageResource(R.drawable.music);
+        i1.setImageResource(R.drawable.dance);
+        i2.setImageResource(R.drawable.classapart);
+        i3.setImageResource(R.drawable.digital);
+        i4.setImageResource(R.drawable.fine);
+        i5.setImageResource(R.drawable.perfor);
+        i6.setImageResource(R.drawable.lit);
+        i7.setImageResource(R.drawable.sports);
+        i8.setImageResource(R.drawable.quiz);
 
         i0.setScaleType(ImageView.ScaleType.FIT_XY);
         i1.setScaleType(ImageView.ScaleType.FIT_XY);

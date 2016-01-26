@@ -6,17 +6,22 @@
         android:id="@+id/tool_bar"
         layout="@layout/tool_bar"
         ></include>
-
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="10"
+        android:layout_below="@id/tool_bar"
+        android:orientation="vertical">
     <com.daimajia.slider.library.SliderLayout
         android:id="@+id/slider"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:layout_below="@id/tool_bar"
+        android:layout_height="0dp"
+        android:layout_weight="4"
         />
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/slider"
+        android:layout_height="0dp"
+        android:layout_weight="6"
         android:orientation="vertical"
         android:weightSum="2">
         <LinearLayout
@@ -30,7 +35,6 @@
                     android:layout_height="match_parent"
                     android:id="@+id/main_grid_iv1"
                     android:layout_weight="1"
-                    android:padding="5dp"
 
                     />
                 <ImageView
@@ -38,7 +42,6 @@
                     android:layout_height="match_parent"
                     android:id="@+id/main_grid_iv2"
                     android:layout_weight="1"
-                    android:padding="5dp"
                     />
         </LinearLayout>
         <LinearLayout
@@ -52,18 +55,16 @@
                 android:layout_height="match_parent"
                 android:id="@+id/main_grid_iv3"
                 android:layout_weight="1"
-                android:padding="5dp"
                 />
             <ImageView
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:id="@+id/main_grid_iv4"
                 android:layout_weight="1"
-                android:padding="5dp"
                 />
         </LinearLayout>
 
 
     </LinearLayout>
-
+    </LinearLayout>
 </RelativeLayout>

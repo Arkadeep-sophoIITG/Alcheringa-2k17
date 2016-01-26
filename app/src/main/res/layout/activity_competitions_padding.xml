@@ -35,21 +35,31 @@
                 android:layout_height="match_parent"
                 android:id="@+id/comp_grid_iv1"
                 android:layout_weight="1"
+                android:padding="5dp"
                 android:onClick="onClick1"
+                android:background="@color/gray"
+                android:elevation="5dp"
+
                 />
             <ImageView
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:id="@+id/comp_grid_iv2"
                 android:layout_weight="1"
+                android:padding="5dp"
                 android:onClick="onClick2"
+                android:background="@color/gray"
+                android:elevation="5dp"
                 />
             <ImageView
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:id="@+id/comp_grid_iv3"
                 android:layout_weight="1"
+                android:padding="5dp"
                 android:onClick="onClick3"
+                android:background="@color/gray"
+                android:elevation="5dp"
                 />
         </LinearLayout>
         <LinearLayout
@@ -63,6 +73,7 @@
                 android:layout_height="match_parent"
                 android:id="@+id/comp_grid_iv4"
                 android:layout_weight="1"
+                android:padding="5dp"
                 android:onClick="onClick4"
                 />
             <ImageView
@@ -70,6 +81,7 @@
                 android:layout_height="match_parent"
                 android:id="@+id/comp_grid_iv5"
                 android:layout_weight="1"
+                android:padding="5dp"
                 android:onClick="onClick5"
                 />
             <ImageView
@@ -77,6 +89,7 @@
                 android:layout_height="match_parent"
                 android:id="@+id/comp_grid_iv6"
                 android:layout_weight="1"
+                android:padding="5dp"
                 android:onClick="onClick6"
                 />
         </LinearLayout>
@@ -91,6 +104,7 @@
                 android:layout_height="match_parent"
                 android:id="@+id/comp_grid_iv7"
                 android:layout_weight="1"
+                android:padding="5dp"
                 android:onClick="onClick7"
                 />
             <ImageView
@@ -98,6 +112,7 @@
                 android:layout_height="match_parent"
                 android:id="@+id/comp_grid_iv8"
                 android:layout_weight="1"
+                android:padding="5dp"
                 android:onClick="onClick8"
                 />
             <ImageView
@@ -105,6 +120,7 @@
                 android:layout_height="match_parent"
                 android:id="@+id/comp_grid_iv9"
                 android:layout_weight="1"
+                android:padding="5dp"
                 android:onClick="onClick9"
                 />
         </LinearLayout>

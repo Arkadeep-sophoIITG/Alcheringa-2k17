@@ -1,15 +1,14 @@
 package in.alcheringa.alcher16;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
+import android.net.Uri;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
-import android.widget.ListView;
-import android.widget.Toast;
 
 import com.daimajia.slider.library.Animations.DescriptionAnimation;
 import com.daimajia.slider.library.SliderLayout;
@@ -17,8 +16,6 @@ import com.daimajia.slider.library.SliderTypes.BaseSliderView;
 import com.daimajia.slider.library.SliderTypes.TextSliderView;
 import com.mikepenz.materialdrawer.Drawer;
 import com.mikepenz.materialdrawer.DrawerBuilder;
-import com.mikepenz.materialdrawer.model.PrimaryDrawerItem;
-import com.mikepenz.materialdrawer.model.SecondaryDrawerItem;
 import com.mikepenz.materialdrawer.model.interfaces.IDrawerItem;
 
 import java.util.HashMap;
@@ -46,7 +43,23 @@ public class MainActivity extends AppCompatActivity implements BaseSliderView.On
                 .withOnDrawerItemClickListener(new Drawer.OnDrawerItemClickListener() {
                     @Override
                     public boolean onItemClick(View view, int position, IDrawerItem drawerItem) {
-
+                        Intent mIntent;
+                        switch (position)
+                        {
+                            case 0:
+                                mIntent = new Intent(getApplicationContext(), MainActivity.class);
+                                mIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                                getApplicationContext().startActivity(mIntent);
+                                break;
+                            case 4:
+                                mIntent = new Intent(getApplicationContext(), Map.class);
+                                mIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                                getApplicationContext().startActivity(mIntent);
+                                break;
+                            case 5:
+                                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.alcheringa.in/registrations"));
+                                startActivity(browserIntent);
+                        }
                         return true;
                     }
                 })
@@ -56,9 +69,10 @@ public class MainActivity extends AppCompatActivity implements BaseSliderView.On
 
         mDemoSlider = (SliderLayout) findViewById(R.id.slider);
         HashMap<String,Integer> file_maps = new HashMap<    String, Integer>();
-        file_maps.put("a",R.drawable.a);
-        file_maps.put("b", R.drawable.b);
-        file_maps.put("c", R.drawable.c);
+        file_maps.put("Saaz - Amaan and Ayaan Ali Khan",R.drawable.saaz);
+        file_maps.put("Blitzkrieg - Dualist Inquiry and Sandunes", R.drawable.blitz);
+        file_maps.put("Crescendo - King Mika Singh", R.drawable.crescendo);
+        file_maps.put("Juggernaut - Korpiklaani", R.drawable.jugger);
         for(String name : file_maps.keySet()){
             TextSliderView textSliderView = new TextSliderView(this);
             // initialize a SliderLayout
@@ -85,10 +99,10 @@ public class MainActivity extends AppCompatActivity implements BaseSliderView.On
         b =(ImageView) findViewById(R.id.main_grid_iv2);
         c =(ImageView) findViewById(R.id.main_grid_iv3);
         d =(ImageView) findViewById(R.id.main_grid_iv4);
-        a.setImageResource(R.drawable.a);
-        b.setImageResource(R.drawable.b);
-        c.setImageResource(R.drawable.c);
-        d.setImageResource(R.drawable.a);
+        a.setImageResource(R.drawable.competitions);
+        b.setImageResource(R.drawable.concerts);
+        c.setImageResource(R.drawable.specials);
+        d.setImageResource(R.drawable.informals);
         a.setScaleType(ImageView.ScaleType.FIT_XY);
         b.setScaleType(ImageView.ScaleType.FIT_XY);
         c.setScaleType(ImageView.ScaleType.FIT_XY);
@@ -107,6 +121,7 @@ public class MainActivity extends AppCompatActivity implements BaseSliderView.On
                 MainActivity.this.startActivity(intent);
             }
         });
+
 
 
     }

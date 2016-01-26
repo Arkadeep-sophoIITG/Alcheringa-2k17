@@ -26,4 +26,6 @@
         <item>Rules</item>
     </string-array>
     <string name="title_activity_event">Event</string>
+    <string name="title_activity_pro_night">ProNight</string>
+    <string name="title_activity_map">Map</string>
 </resources>

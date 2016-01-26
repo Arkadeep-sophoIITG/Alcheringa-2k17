@@ -30,6 +30,7 @@ dependencies {
     compile 'com.android.support:recyclerview-v7:23.0.+'
     compile "com.android.support:design:23.1.1"
     compile 'com.bignerdranch.android:expandablerecyclerview:1.0.3'
+    compile 'com.commit451:PhotoView:1.2.4'
     compile('com.mikepenz:materialdrawer:4.6.4@aar') {
         transitive = true
     }

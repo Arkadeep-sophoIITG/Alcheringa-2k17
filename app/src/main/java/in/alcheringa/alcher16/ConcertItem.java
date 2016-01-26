@@ -1,8 +1,5 @@
 package in.alcheringa.alcher16;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * Created by hariharan on 15/1/16.
  */
