@@ -21,6 +21,15 @@
     <color name="text_shadow">#7F000000</color>
     <color name="list_color">#0f0e0e</color>
     <color name="text_shadow_white">#FFFFFF</color>
-    <color name="ColorPrimary">#3F51B5</color>
-    <color name="ColorPrimaryDark">#1A237E</color>
+    <color name="ColorPrimary">#663399</color>
+    <color name="ColorPrimaryDark">#481f7a</color>
+    <color name="tab1">#00a099</color>
+    <color name="tab2">#f28173</color>
+    <color name="tab3">#821f5d</color>
+    <color name="tab4">#389cd7</color>
+    <color name="tab5">#bbbdbf</color>
+    <color name="tab6">#907198</color>
+    <color name="tab7">#4f5097</color>
+    <color name="tab8">#b22f8f</color>
+    <color name="tab9">#cb7c29</color>
 </resources>

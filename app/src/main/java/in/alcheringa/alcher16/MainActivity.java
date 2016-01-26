@@ -11,6 +11,7 @@ import android.view.View;
 import android.widget.ImageView;
 
 import com.daimajia.slider.library.Animations.DescriptionAnimation;
+import com.daimajia.slider.library.Indicators.PagerIndicator;
 import com.daimajia.slider.library.SliderLayout;
 import com.daimajia.slider.library.SliderTypes.BaseSliderView;
 import com.daimajia.slider.library.SliderTypes.TextSliderView;
@@ -75,19 +76,19 @@ public class MainActivity extends AppCompatActivity implements BaseSliderView.On
         file_maps.put("Juggernaut - Korpiklaani", R.drawable.jugger);
         for(String name : file_maps.keySet()){
             TextSliderView textSliderView = new TextSliderView(this);
-            // initialize a SliderLayout
             textSliderView
                     .description(name)
                     .image(file_maps.get(name))
                     .setScaleType(BaseSliderView.ScaleType.Fit)
                     .setOnSliderClickListener(MainActivity.this);
 
+
             //add your extra information
             textSliderView.bundle(new Bundle());
             textSliderView.getBundle()
-                    .putString("extra",name);
+                    .putString("extra", name);
 
-            mDemoSlider.addSlider(textSliderView);
+          mDemoSlider.addSlider(textSliderView);
         }
 
         mDemoSlider.setPresetTransformer(SliderLayout.Transformer.Default);

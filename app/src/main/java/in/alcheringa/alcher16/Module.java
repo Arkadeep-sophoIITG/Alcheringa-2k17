@@ -40,6 +40,36 @@ public class Module extends AppCompatActivity {
         tabs=(SlidingTabLayout) findViewById(R.id.tabs);
         tabs.setViewPager(viewPager);
         viewPager.setCurrentItem(tabposition);
+        tabs.setCustomTabColorizer(new SlidingTabLayout.TabColorizer() {
+
+            @Override
+            public int getIndicatorColor(int position) {
+                switch (position) {
+                    case 0:
+                    return getResources().getColor(R.color.tab1);
+                    case 1:
+                        return getResources().getColor(R.color.tab2);
+                    case 2:
+                        return getResources().getColor(R.color.tab3);
+                    case 3:
+                        return getResources().getColor(R.color.tab4);
+                    case 4:
+                        return getResources().getColor(R.color.tab5);
+                    case 5:
+                        return getResources().getColor(R.color.tab6);
+                    case 6:
+                        return getResources().getColor(R.color.tab7);
+                    case 7:
+                        return getResources().getColor(R.color.tab8);
+                    case 8:
+                        return getResources().getColor(R.color.tab9);
+                    default:
+                        return getResources().getColor(R.color.tab9);
+
+                }
+            }
+
+        });
 
         Drawer drawer = new DrawerBuilder()
                 .withActivity(this)
