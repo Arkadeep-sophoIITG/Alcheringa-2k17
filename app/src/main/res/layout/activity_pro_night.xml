@@ -1,13 +1,58 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:layout_height="match_parent"
     tools:context="in.alcheringa.alcher16.ProNight">
 
-    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/tool_bar"
+        ></include>
+    <TextView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/pronighttext"/>
+        android:id="@+id/pro_night_desc"
+        android:textSize="16sp"
+        android:layout_below="@+id/tool_bar"
+        android:paddingLeft="@dimen/activity_vertical_margin"
+        android:paddingRight="@dimen/activity_vertical_margin"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_venue"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="VENUE:"
+        android:layout_below="@+id/pro_night_desc"
+        android:paddingLeft="@dimen/activity_vertical_margin"
+        android:paddingRight="@dimen/activity_vertical_margin"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pro_night_venue"
+        android:textSize="16sp"
+        android:layout_below="@+id/tv_venue"
+        android:paddingLeft="@dimen/activity_vertical_margin"
+        android:paddingRight="@dimen/activity_vertical_margin"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_time"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="TIME:"
+        android:layout_below="@+id/pro_night_venue"
+        android:paddingLeft="@dimen/activity_vertical_margin"
+        android:paddingRight="@dimen/activity_vertical_margin"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pro_night_time"
+        android:textSize="16sp"
+        android:layout_below="@+id/tv_time"
+        android:paddingLeft="@dimen/activity_vertical_margin"
+        android:paddingRight="@dimen/activity_vertical_margin"/>
+
+
+
 
 </RelativeLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="saaz">
+        <item>Amaan and Ayaan Ali Khan are World Class Sarod Players. They are also the 7th Generation of a legendary musical lineage and the sons and disciples of Sarod Maestro Amjad Ali Khan.</item>
+        <item>Institute Auditorium</item>
+        <item>28th January. 8.00pm to 10.00pm</item>
+    </string-array>
+    <string-array name="blitz">
+        <item>Dualist Inquiry and Sandunes are both well known artists in the Indian EDM scene. Dualist Inquiry\'s music can be described as a mix of various genres including Rock, Dubstep and Lounge while that of Sandunes incorporates organic beats into Electronica and Garage Music.</item>
+        <item>Cricket Ground</item>
+        <item>29th January. 8.00pm to 10.00pm</item>
+    </string-array>
+    <string-array name="crescendo">
+        <item>Mika Singh is a celebrated Bollywood Singer, Composer cum Songwriter. He is known for his hit numbers like "Mauja Hi Mauja" and "Mast Kalandar".</item>
+        <item>Cricket Ground</item>
+        <item>30th January. 8.00pm to 10.00pm</item>
+    </string-array>
+    <string-array name="juggernaut">
+        <item>Korpiklaani, the celebrated Folk Metal Band from Finland is all set to rock the stage at the 20th Edition of Alcheringa, IIT Guwahati’s Annual Cultural Spectacle. Known for their hit numbers like “Vodka” and “Ievan Polkka”, the band’s native Samic music elements, Shamanic Drums and Joik Singing provide a unique twist to Metal. Having released their 9th Studio Album “Noita” last year, the band is on an international tour.</item>
+        <item>Cricket Ground</item>
+        <item>31st January. 8.00pm to 10.00pm</item>
+    </string-array>
+    <string-array name="ouzo">
+        <item> Ouzo Bazooka is an Israeli Psychedelic Rock Band. Drawing influences from the beautiful city of Tel Aviv, along with classic hard rock, psychedelic art, garage rock and surf,Ouzo Bazooka’s sound is a dizzying concoction of east meets west. </item>
+        <item>Cricket Ground</item>
+        <item>29th January. 19.00pm to 20.00pm</item>
+    </string-array>
+    <string-array name="ijp">
+        <item> The Indian Jam Project (Founder/Arranger - Tushar Lall), a bunch of young Indian musicians, have been casting their spell over thousands in recent times by covering Western symphonies with a desi twist. </item>
+        <item>Institute Auditorium</item>
+        <item>28th January. 21.00pm to 22.00pm</item>
+    </string-array>
+    <string-array name="tropicgreen">
+        <item>Tropic Green is a Jazz band from Singapore. Their music can be described as a bewitching blend of classic and contemporary Jazz where each instruments tonal varieties shine individually as well as collaboratively.</item>
+        <item>Institute Auditorium</item>
+        <item>30th January. 17.00pm to 18.00pm</item>
+    </string-array>
+    <string-array name="fasta">
+        <item>Fasta is an Irish Band whose music can be described as classic Irish Folk with a Quebecois twist.</item>
+        <item>Institute Auditorium</item>
+        <item>29th January. 15.30pm to 16.30pm</item>
+    </string-array>
+    <string-array name="omarmusa">
+        <item>Omar Musa is an Australian Poet, Rapper and Writer.His combination of poetry and hip-hop music has produced many unique pieces. He is also the winner of the Australian Poetry Slam in 2009 and the Indian Poetry Slam in 2010. </item>
+        <item>Institute Auditorium</item>
+        <item>30th January. 18.00pm to 19.00pm</item>
+    </string-array>
+    <string-array name="metastasis">
+        <item>Meta-Stasis is an Extreme Technical Metal band from the UK.Combining psycho-extreme-tech-death metal and industrial/jungle, their music will send you into a psychotic frenzy!</item>
+        <item>Cricket Ground</item>
+        <item>31st January. 19.00pm to 20.00pm</item>
+    </string-array>
+    <string-array name="tugofwar">
+        <item>Can you overcome 3 other people, either with brute strength or strategy?</item>
+        <item>Cricket Ground</item>
+        <item>All Day. Every Day.</item>
+    </string-array>
+    <string-array name="snakes">
+        <item>Try to climb the ladders and avoid the snakes as best you can.</item>
+        <item>Cricket Ground</item>
+        <item>All Day. Every Day.</item>
+    </string-array>
+    <string-array name="penfight">
+        <item>Are you the best at \'pen-fight\'? You will soon find out!</item>
+        <item>Gaming Arena</item>
+        <item>All Day.Every Day.</item>
+    </string-array>
+    <string-array name="treasure">
+        <item>Meta-Stasis is an Extreme Technical Metal band from the UK.Combining psycho-extreme-tech-death metal and industrial/jungle, their music will send you into a psychotic frenzy!</item>
+        <item>Cricket Ground</item>
+        <item>31st January. 19.00pm to 20.00pm</item>
+    </string-array>
+    <string-array name="gadhamaar">
+        <item>Eliminate the most people to emerge victorious in this free for all </item>
+        <item>Cricket Ground</item>
+        <item>All Day. Every Day.</item>
+    </string-array>
+</resources>

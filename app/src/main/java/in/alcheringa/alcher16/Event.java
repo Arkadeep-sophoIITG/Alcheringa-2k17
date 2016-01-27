@@ -1,5 +1,7 @@
 package in.alcheringa.alcher16;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -32,15 +34,6 @@ public class Event extends AppCompatActivity {
         event_name=getIntent().getExtras().getString("eventname");
         Toolbar toolbar = (Toolbar) findViewById(R.id.tool_bar); // Attaching the layout to the toolbar object
         setSupportActionBar(toolbar);
-        getSupportActionBar().setTitle(event_name);
-
-        viewPager=(ViewPager) findViewById(R.id.viewpager_event);
-        viewPager.setAdapter(new MyPagerAdapter(getSupportFragmentManager(),event_name));
-        tabs=(SlidingTabLayout) findViewById(R.id.tabs_event);
-        tabs.setDistributeEvenly(true);
-        tabs.setViewPager(viewPager);
-        viewPager.setCurrentItem(0);
-
 
         Drawer drawer = new DrawerBuilder()
                 .withActivity(this)
@@ -52,11 +45,57 @@ public class Event extends AppCompatActivity {
                 .withOnDrawerItemClickListener(new Drawer.OnDrawerItemClickListener() {
                     @Override
                     public boolean onItemClick(View view, int position, IDrawerItem drawerItem) {
-
+                        Intent mIntent;
+                        switch (position)
+                        {
+                            case 0:
+                                mIntent = new Intent(getApplicationContext(), MainActivity.class);
+                                mIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                                getApplicationContext().startActivity(mIntent);
+                                break;
+                            case 1:
+                                mIntent = new Intent(getApplicationContext(), ScavengerHunt.class);
+                                mIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                                getApplicationContext().startActivity(mIntent);
+                                break;
+                            case 2:
+                                mIntent = new Intent(getApplicationContext(), Schedule.class);
+                                mIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                                getApplicationContext().startActivity(mIntent);
+                                break;
+                            case 3:
+                                mIntent = new Intent(getApplicationContext(), Map.class);
+                                mIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                                getApplicationContext().startActivity(mIntent);
+                                break;
+                            case 4:
+                                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.alcheringa.in/registrations"));
+                                startActivity(browserIntent);
+                                break;
+                            case 5:
+                                mIntent = new Intent(getApplicationContext(), Sponsors.class);
+                                mIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                                getApplicationContext().startActivity(mIntent);
+                                break;
+                            case 6:
+                                mIntent = new Intent(getApplicationContext(), ContactUs.class);
+                                mIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                                getApplicationContext().startActivity(mIntent);
+                                break;
+                        }
                         return true;
                     }
                 })
                 .build();
+
+
+        viewPager=(ViewPager) findViewById(R.id.viewpager_event);
+        viewPager.setAdapter(new MyPagerAdapter(getSupportFragmentManager(),event_name));
+        tabs=(SlidingTabLayout) findViewById(R.id.tabs_event);
+        tabs.setDistributeEvenly(true);
+        tabs.setViewPager(viewPager);
+        viewPager.setCurrentItem(0);
+
     }
 
     class MyPagerAdapter extends FragmentPagerAdapter {

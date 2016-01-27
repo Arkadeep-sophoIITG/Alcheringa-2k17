@@ -1,5 +1,7 @@
 package in.alcheringa.alcher16;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
@@ -17,17 +19,16 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Concerts extends AppCompatActivity {
-    private Toolbar toolbar;
     private List<ConcertItem> concertItem;
     private RecyclerView rv;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_concerts);
-        toolbar = (Toolbar) findViewById(R.id.tool_bar); // Attaching the layout to the toolbar object
+        Toolbar toolbar = (Toolbar) findViewById(R.id.tool_bar); // Attaching the layout to the toolbar object
         setSupportActionBar(toolbar);
+
         Drawer drawer = new DrawerBuilder()
                 .withActivity(this)
                 .withToolbar(toolbar)
@@ -38,12 +39,49 @@ public class Concerts extends AppCompatActivity {
                 .withOnDrawerItemClickListener(new Drawer.OnDrawerItemClickListener() {
                     @Override
                     public boolean onItemClick(View view, int position, IDrawerItem drawerItem) {
-
+                        Intent mIntent;
+                        switch (position)
+                        {
+                            case 0:
+                                mIntent = new Intent(getApplicationContext(), MainActivity.class);
+                                mIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                                getApplicationContext().startActivity(mIntent);
+                                break;
+                            case 1:
+                                mIntent = new Intent(getApplicationContext(), ScavengerHunt.class);
+                                mIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                                getApplicationContext().startActivity(mIntent);
+                                break;
+                            case 2:
+                                mIntent = new Intent(getApplicationContext(), Schedule.class);
+                                mIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                                getApplicationContext().startActivity(mIntent);
+                                break;
+                            case 3:
+                                mIntent = new Intent(getApplicationContext(), Map.class);
+                                mIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                                getApplicationContext().startActivity(mIntent);
+                                break;
+                            case 4:
+                                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.alcheringa.in/registrations"));
+                                startActivity(browserIntent);
+                                break;
+                            case 5:
+                                mIntent = new Intent(getApplicationContext(), Sponsors.class);
+                                mIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                                getApplicationContext().startActivity(mIntent);
+                                break;
+                            case 6:
+                                mIntent = new Intent(getApplicationContext(), ContactUs.class);
+                                mIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                                getApplicationContext().startActivity(mIntent);
+                                break;
+                        }
                         return true;
                     }
                 })
                 .build();
-        drawer.setSelection(1);
+
         rv = (RecyclerView)findViewById(R.id.rv);
         rv.setHasFixedSize(true);
         LinearLayoutManager llm = new LinearLayoutManager(Concerts.this);
@@ -79,7 +117,10 @@ public class Concerts extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if (id == R.id.action_information) {
+            Intent mIntent = new Intent(this, ProNight.class);
+            mIntent.putExtra("info","pronight");
+            Concerts.this.startActivity(mIntent);
             return true;
         }
 

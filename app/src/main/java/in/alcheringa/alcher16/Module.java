@@ -1,6 +1,7 @@
 package in.alcheringa.alcher16;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -32,8 +33,6 @@ public class Module extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_module);
         tabposition = getIntent().getExtras().getInt("position");
-        Toolbar toolbar = (Toolbar) findViewById(R.id.tool_bar); // Attaching the layout to the toolbar object
-        setSupportActionBar(toolbar);
 
         viewPager=(ViewPager) findViewById(R.id.viewpager);
         viewPager.setAdapter(new MyPagerAdapter(getSupportFragmentManager()));
@@ -46,7 +45,7 @@ public class Module extends AppCompatActivity {
             public int getIndicatorColor(int position) {
                 switch (position) {
                     case 0:
-                    return getResources().getColor(R.color.tab1);
+                        return getResources().getColor(R.color.tab1);
                     case 1:
                         return getResources().getColor(R.color.tab2);
                     case 2:
@@ -71,6 +70,9 @@ public class Module extends AppCompatActivity {
 
         });
 
+        Toolbar toolbar = (Toolbar) findViewById(R.id.tool_bar); // Attaching the layout to the toolbar object
+        setSupportActionBar(toolbar);
+
         Drawer drawer = new DrawerBuilder()
                 .withActivity(this)
                 .withToolbar(toolbar)
@@ -81,11 +83,49 @@ public class Module extends AppCompatActivity {
                 .withOnDrawerItemClickListener(new Drawer.OnDrawerItemClickListener() {
                     @Override
                     public boolean onItemClick(View view, int position, IDrawerItem drawerItem) {
-
+                        Intent mIntent;
+                        switch (position)
+                        {
+                            case 0:
+                                mIntent = new Intent(getApplicationContext(), MainActivity.class);
+                                mIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                                getApplicationContext().startActivity(mIntent);
+                                break;
+                            case 1:
+                                mIntent = new Intent(getApplicationContext(), ScavengerHunt.class);
+                                mIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                                getApplicationContext().startActivity(mIntent);
+                                break;
+                            case 2:
+                                mIntent = new Intent(getApplicationContext(), Schedule.class);
+                                mIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                                getApplicationContext().startActivity(mIntent);
+                                break;
+                            case 3:
+                                mIntent = new Intent(getApplicationContext(), Map.class);
+                                mIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                                getApplicationContext().startActivity(mIntent);
+                                break;
+                            case 4:
+                                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.alcheringa.in/registrations"));
+                                startActivity(browserIntent);
+                                break;
+                            case 5:
+                                mIntent = new Intent(getApplicationContext(), Sponsors.class);
+                                mIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                                getApplicationContext().startActivity(mIntent);
+                                break;
+                            case 6:
+                                mIntent = new Intent(getApplicationContext(), ContactUs.class);
+                                mIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                                getApplicationContext().startActivity(mIntent);
+                                break;
+                        }
                         return true;
                     }
                 })
                 .build();
+
     }
 
     class MyPagerAdapter extends FragmentPagerAdapter {
@@ -190,7 +230,6 @@ public class Module extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_module, menu);
         return true;
     }
 

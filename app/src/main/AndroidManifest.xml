@@ -7,6 +7,7 @@
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
     <permission
@@ -85,6 +86,43 @@
         <activity
             android:name=".Map"
             android:label="@string/title_activity_map" >
+        </activity>
+        <activity
+            android:name=".Informals"
+            android:label="@string/title_activity_informals" >
+        </activity>
+        <activity
+            android:name=".Specials"
+            android:label="@string/title_activity_specials" >
+        </activity>
+        <activity
+            android:name=".Proshows"
+            android:label="@string/title_activity_proshows" >
+        </activity>
+        <activity
+            android:name=".Schedule"
+            android:label="@string/title_activity_schedule" >
+        </activity>
+        <activity
+            android:name=".Sponsors"
+            android:label="@string/title_activity_sponsors" >
+        </activity>
+        <activity
+            android:name=".ContactUs"
+            android:label="@string/title_activity_contact_us" >
+        </activity>
+
+        <meta-data
+            android:name="com.parse.push.notification_icon"
+            android:resource="@drawable/launcher_icon" />
+
+        <activity
+            android:name=".ScavengerHunt"
+            android:label="@string/title_activity_scavenger_hunt" >
+        </activity>
+        <activity
+            android:name=".Initiatives"
+            android:label="@string/title_activity_initiatives" >
         </activity>
     </application>
 

@@ -13,7 +13,7 @@ import java.util.List;
 /**
  * Created by hariharan on 15/1/16.
  */
-public class RVAdapter extends RecyclerView.Adapter<RVAdapter.CViewHolder> {
+public class RVAdapterProshows extends RecyclerView.Adapter<RVAdapterProshows.CViewHolder> {
 
 
     public static class CViewHolder extends RecyclerView.ViewHolder {
@@ -29,10 +29,10 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.CViewHolder> {
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    String[] names={"saaz","blitz","crescendo","juggernaut"};
-                    Intent mIntent = new Intent(itemView.getContext(), ProNight.class);
-                    mIntent.putExtra("name", names[getAdapterPosition()]);
-                    itemView.getContext().startActivity(mIntent);
+                    String[] names={"ijp","fasta","ouzo","tropicgreen","omarmusa","metastasis"};
+                        Intent mIntent = new Intent(itemView.getContext(), ProNight.class);
+                        mIntent.putExtra("name", names[getAdapterPosition()]);
+                        itemView.getContext().startActivity(mIntent);
                 }
             });
         }
@@ -40,7 +40,7 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.CViewHolder> {
 
     List<ConcertItem> persons;
 
-    RVAdapter(List<ConcertItem> persons){
+    RVAdapterProshows(List<ConcertItem> persons){
         this.persons = persons;
     }
 

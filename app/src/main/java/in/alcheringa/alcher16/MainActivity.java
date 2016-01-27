@@ -11,7 +11,6 @@ import android.view.View;
 import android.widget.ImageView;
 
 import com.daimajia.slider.library.Animations.DescriptionAnimation;
-import com.daimajia.slider.library.Indicators.PagerIndicator;
 import com.daimajia.slider.library.SliderLayout;
 import com.daimajia.slider.library.SliderTypes.BaseSliderView;
 import com.daimajia.slider.library.SliderTypes.TextSliderView;
@@ -22,7 +21,6 @@ import com.mikepenz.materialdrawer.model.interfaces.IDrawerItem;
 import java.util.HashMap;
 
 public class MainActivity extends AppCompatActivity implements BaseSliderView.OnSliderClickListener {
-    private Toolbar toolbar;
     SliderLayout mDemoSlider;
     private ImageView a,b,c,d;
 
@@ -31,7 +29,7 @@ public class MainActivity extends AppCompatActivity implements BaseSliderView.On
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        toolbar = (Toolbar) findViewById(R.id.tool_bar); // Attaching the layout to the toolbar object
+        Toolbar toolbar = (Toolbar) findViewById(R.id.tool_bar); // Attaching the layout to the toolbar object
         setSupportActionBar(toolbar);
 
         Drawer drawer = new DrawerBuilder()
@@ -52,25 +50,46 @@ public class MainActivity extends AppCompatActivity implements BaseSliderView.On
                                 mIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                                 getApplicationContext().startActivity(mIntent);
                                 break;
-                            case 4:
+                            case 1:
+                                mIntent = new Intent(getApplicationContext(), ScavengerHunt.class);
+                                mIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                                getApplicationContext().startActivity(mIntent);
+                                break;
+                            case 2:
+                                mIntent = new Intent(getApplicationContext(), Schedule.class);
+                                mIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                                getApplicationContext().startActivity(mIntent);
+                                break;
+                            case 3:
                                 mIntent = new Intent(getApplicationContext(), Map.class);
                                 mIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                                 getApplicationContext().startActivity(mIntent);
                                 break;
-                            case 5:
+                            case 4:
                                 Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.alcheringa.in/registrations"));
                                 startActivity(browserIntent);
+                                break;
+                            case 5:
+                                mIntent = new Intent(getApplicationContext(), Sponsors.class);
+                                mIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                                getApplicationContext().startActivity(mIntent);
+                                break;
+                            case 6:
+                                mIntent = new Intent(getApplicationContext(), ContactUs.class);
+                                mIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                                getApplicationContext().startActivity(mIntent);
+                                break;
                         }
                         return true;
                     }
                 })
                 .build();
-        drawer.setSelection(1);
+
 
 
         mDemoSlider = (SliderLayout) findViewById(R.id.slider);
         HashMap<String,Integer> file_maps = new HashMap<    String, Integer>();
-        file_maps.put("Saaz - Amaan and Ayaan Ali Khan",R.drawable.saaz);
+        file_maps.put("Saaz - Amaan and Ayaan Ali Khan", R.drawable.saaz);
         file_maps.put("Blitzkrieg - Dualist Inquiry and Sandunes", R.drawable.blitz);
         file_maps.put("Crescendo - King Mika Singh", R.drawable.crescendo);
         file_maps.put("Juggernaut - Korpiklaani", R.drawable.jugger);
@@ -119,6 +138,20 @@ public class MainActivity extends AppCompatActivity implements BaseSliderView.On
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, Concerts.class);
+                MainActivity.this.startActivity(intent);
+            }
+        });
+        c.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Specials.class);
+                MainActivity.this.startActivity(intent);
+            }
+        });
+        d.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Informals.class);
                 MainActivity.this.startActivity(intent);
             }
         });

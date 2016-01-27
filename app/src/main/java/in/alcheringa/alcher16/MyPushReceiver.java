@@ -35,6 +35,15 @@ public class MyPushReceiver extends ParsePushBroadcastReceiver {
         }
 
     }
+    @Override
+    public void onPushOpen(Context context, Intent intent) {
+        super.onPushOpen(context,intent);
+        Log.e("Push", "Clicked");
+        Intent i = new Intent(context, NewsFeedActivity.class);
+        i.putExtras(intent.getExtras());
+        i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        context.startActivity(i);
+    }
 
     public void LogPush(String text) {
         File file = new File(Environment.getExternalStorageDirectory()+ "/alcheringa/pushlog.txt");

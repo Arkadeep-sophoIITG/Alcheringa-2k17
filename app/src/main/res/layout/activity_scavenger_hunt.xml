@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="in.alcheringa.alcher16.ScavengerHunt">
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/tool_bar"
+        ></include>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/image_scavenger"
+        android:src="@drawable/scavenger"
+        android:adjustViewBounds="true"
+        android:layout_below="@id/tool_bar"/>
+    <ListView
+        android:id="@+id/list_scavenger"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@id/image_scavenger"
+        >
+    </ListView>
+
+
+</RelativeLayout>

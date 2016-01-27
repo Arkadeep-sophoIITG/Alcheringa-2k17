@@ -20,11 +20,12 @@ public class App extends Application {
         ParseInstallation.getCurrentInstallation().saveInBackground();
 
         item1 = new PrimaryDrawerItem().withName("Home").withIcon(R.drawable.home);
-        item2 = new PrimaryDrawerItem().withName("About Us").withIcon(R.drawable.about);
-        item3 = new PrimaryDrawerItem().withName("Games").withIcon(R.drawable.games);
-        item4 = new PrimaryDrawerItem().withName("Schedule").withIcon(R.drawable.schedule);
-        item5 = new PrimaryDrawerItem().withName("Map").withIcon(R.drawable.map);
-        item6 = new PrimaryDrawerItem().withName("Registration").withIcon(R.drawable.registration);
+        item2 = new PrimaryDrawerItem().withName("Scavenger Hunt").withIcon(R.drawable.games);
+        item3 = new PrimaryDrawerItem().withName("Schedule").withIcon(R.drawable.schedule);
+        item4 = new PrimaryDrawerItem().withName("Map").withIcon(R.drawable.map);
+        item5 = new PrimaryDrawerItem().withName("Registration").withIcon(R.drawable.registration);
+        item6 = new PrimaryDrawerItem().withName("Sponsors").withIcon(R.drawable.about);
         item7 = new PrimaryDrawerItem().withName("Contact Us").withIcon(R.drawable.contactus);
+
     }
 }

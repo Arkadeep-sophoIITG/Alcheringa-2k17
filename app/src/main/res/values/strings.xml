@@ -28,4 +28,15 @@
     <string name="title_activity_event">Event</string>
     <string name="title_activity_pro_night">ProNight</string>
     <string name="title_activity_map">Map</string>
+    <string name="title_activity_informals">Informals</string>
+    <string name="title_activity_specials">Specials</string>
+    <string name="title_activity_proshows">Proshows</string>
+    <string name="title_activity_schedule">Schedule</string>
+    <string name="title_activity_sponsors">Sponsors</string>
+    <string name="title_activity_contact_us">ContactUs</string>
+    <string name="title_activity_scavenger_hunt">ScavengerHunt</string>
+    <string name="title_activity_initiatives">Initiatives</string>
+    <string name="nedesc">North East Unveiled is a novel initiative by Alcheringa to uplift and promote the culture and traditions of North East India by creating a sense of shared identity with the rest of the nation.</string>
+    <string name="udaandesc">Udaan is a  social initiative by Alcheringa to help underpriveleged children. </string>
+
 </resources>

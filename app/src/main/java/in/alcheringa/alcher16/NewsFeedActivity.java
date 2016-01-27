@@ -1,5 +1,7 @@
 package in.alcheringa.alcher16;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
 import android.support.v7.app.AppCompatActivity;
@@ -24,13 +26,12 @@ import java.util.Collections;
 import java.util.List;
 
 public class NewsFeedActivity extends AppCompatActivity {
-    private Toolbar toolbar;
     private ListView listView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_news_feed);
-        toolbar = (Toolbar) findViewById(R.id.tool_bar); // Attaching the layout to the toolbar object
+        Toolbar toolbar = (Toolbar) findViewById(R.id.tool_bar); // Attaching the layout to the toolbar object
         setSupportActionBar(toolbar);
 
         Drawer drawer = new DrawerBuilder()
@@ -43,12 +44,49 @@ public class NewsFeedActivity extends AppCompatActivity {
                 .withOnDrawerItemClickListener(new Drawer.OnDrawerItemClickListener() {
                     @Override
                     public boolean onItemClick(View view, int position, IDrawerItem drawerItem) {
-
+                        Intent mIntent;
+                        switch (position)
+                        {
+                            case 0:
+                                mIntent = new Intent(getApplicationContext(), MainActivity.class);
+                                mIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                                getApplicationContext().startActivity(mIntent);
+                                break;
+                            case 1:
+                                mIntent = new Intent(getApplicationContext(), ScavengerHunt.class);
+                                mIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                                getApplicationContext().startActivity(mIntent);
+                                break;
+                            case 2:
+                                mIntent = new Intent(getApplicationContext(), Schedule.class);
+                                mIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                                getApplicationContext().startActivity(mIntent);
+                                break;
+                            case 3:
+                                mIntent = new Intent(getApplicationContext(), Map.class);
+                                mIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                                getApplicationContext().startActivity(mIntent);
+                                break;
+                            case 4:
+                                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.alcheringa.in/registrations"));
+                                startActivity(browserIntent);
+                                break;
+                            case 5:
+                                mIntent = new Intent(getApplicationContext(), Sponsors.class);
+                                mIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                                getApplicationContext().startActivity(mIntent);
+                                break;
+                            case 6:
+                                mIntent = new Intent(getApplicationContext(), ContactUs.class);
+                                mIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                                getApplicationContext().startActivity(mIntent);
+                                break;
+                        }
                         return true;
                     }
                 })
                 .build();
-        drawer.setSelection(1);
+
 
         listView=(ListView) findViewById(R.id.list_news);
 

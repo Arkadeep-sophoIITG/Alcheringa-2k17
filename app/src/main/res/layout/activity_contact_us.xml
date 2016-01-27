@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="in.alcheringa.alcher16.ContactUs">
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/tool_bar"
+        ></include>
+    <TextView
+        android:layout_below="@+id/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_vertical_margin"
+        android:id="@+id/contacttext"
+        android:text="Get it touch with us. "/>
+    <LinearLayout
+        android:layout_below="@id/contacttext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Public Relations Head,Kishor Malakar"
+        android:layout_weight="1"
+        android:onClick="onClickCall1"/>
+    <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+        android:text="Public Relations Head,Gaurav Singh"
+            android:layout_weight="1"
+        android:onClick="onClickCall2"/>
+    </LinearLayout>
+
+
+
+</RelativeLayout>
