@@ -83,27 +83,24 @@ public class Sponsors extends AppCompatActivity {
                 .build();
         int[] images = new int[]{
                 R.drawable.s1,
-                R.drawable.s2,
-                R.drawable.s3,
-                R.drawable.s4,
-                R.drawable.s5,
-                R.drawable.s6,
-                R.drawable.s7,
-                R.drawable.s8,
-                R.drawable.s9,
-                R.drawable.s10,
-                R.drawable.s11,
-                R.drawable.s12,
-                R.drawable.s13
+                R.drawable.spo2,
+                R.drawable.spo3,
+                R.drawable.spo4,
+                R.drawable.spo_5,
+                R.drawable.spo5,
+                R.drawable.spo6,
+                R.drawable.spo7,
+                R.drawable.spo8,
+                R.drawable.spo9
         };
         List<HashMap<String,String>> aList = new ArrayList<HashMap<String,String>>();
-        for(int i=0;i<13;i++){
+        for(int i=0;i<10;i++){
             HashMap<String, String> hm = new HashMap<String,String>();
             hm.put("flag", Integer.toString(images[i]) );
             aList.add(hm);
         }
         // Keys used in Hashmap
-        String[] from = { "flag"};
+        String[] from = {"flag"};
 
         // Ids of views in listview_layout
         int[] to = { R.id.list_item_image};

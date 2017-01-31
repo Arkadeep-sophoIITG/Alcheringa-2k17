@@ -92,12 +92,12 @@ public class Proshows extends AppCompatActivity {
     }
     private void initializeData(){
         concertItem = new ArrayList<>();
-        concertItem.add(new ConcertItem("ijp",  R.drawable.ijp));
-        concertItem.add(new ConcertItem("fasta", R.drawable.fasta));
-        concertItem.add(new ConcertItem("ouzo", R.drawable.ouzo));
-        concertItem.add(new ConcertItem("tropic green", R.drawable.tropicgreen));
-        concertItem.add(new ConcertItem("omar musa", R.drawable.omarmusa));
-        concertItem.add(new ConcertItem("meta",  R.drawable.metastasis));
+        concertItem.add(new ConcertItem("mad hatter",  R.drawable.madhatter));
+        concertItem.add(new ConcertItem("p1", R.drawable.p1));
+        concertItem.add(new ConcertItem("p2", R.drawable.p2));
+        concertItem.add(new ConcertItem("p3", R.drawable.p3));
+        concertItem.add(new ConcertItem("p5", R.drawable.p5));
+        concertItem.add(new ConcertItem("p6",  R.drawable.p6));
     }
 
     private void initializeAdapter(){

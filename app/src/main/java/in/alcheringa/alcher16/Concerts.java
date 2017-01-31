@@ -93,10 +93,12 @@ public class Concerts extends AppCompatActivity {
     }
     private void initializeData(){
         concertItem = new ArrayList<>();
-        concertItem.add(new ConcertItem("Saaz",  R.drawable.saaz));
-        concertItem.add(new ConcertItem("Blitzkrieg", R.drawable.blitz));
+        concertItem.add(new ConcertItem("Saaz",  R.drawable.saaz17));
+        concertItem.add(new ConcertItem("Blitzkrieg", R.drawable.javed_ali));
         concertItem.add(new ConcertItem("Crescendo", R.drawable.crescendo));
-        concertItem.add(new ConcertItem("Juggernaut", R.drawable.jugger));
+        concertItem.add(new ConcertItem("Juggernaut", R.drawable.carl_nunes));
+        concertItem.add(new ConcertItem("Juggernaut2", R.drawable.marnik));
+
     }
 
     private void initializeAdapter(){

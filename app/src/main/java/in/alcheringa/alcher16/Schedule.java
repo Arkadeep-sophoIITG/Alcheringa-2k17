@@ -82,18 +82,14 @@ public class Schedule extends AppCompatActivity {
                 })
                 .build();
         int[] images = new int[]{
-                R.drawable.sc1,
-                R.drawable.sc2,
-                R.drawable.sc3,
-                R.drawable.sc4,
-                R.drawable.sc5,
-                R.drawable.sc6,
-                R.drawable.sc7,
-                R.drawable.sc8,
-                R.drawable.sc9
+                R.drawable.sch1,
+                R.drawable.sch2,
+                R.drawable.sch3,
+                R.drawable.sch4,
+                R.drawable.sch5
         };
         List<HashMap<String,String>> aList = new ArrayList<HashMap<String,String>>();
-        for(int i=0;i<9;i++){
+        for(int i=0;i<5;i++){
             HashMap<String, String> hm = new HashMap<String,String>();
             hm.put("flag", Integer.toString(images[i]) );
             aList.add(hm);

@@ -9,10 +9,6 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import java.util.List;
-
-/**
- * Created by hariharan on 15/1/16.
- */
 public class RVAdapter extends RecyclerView.Adapter<RVAdapter.CViewHolder> {
 
 

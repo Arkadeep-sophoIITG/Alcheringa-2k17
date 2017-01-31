@@ -89,10 +89,11 @@ public class MainActivity extends AppCompatActivity implements BaseSliderView.On
 
         mDemoSlider = (SliderLayout) findViewById(R.id.slider);
         HashMap<String,Integer> file_maps = new HashMap<    String, Integer>();
-        file_maps.put("Saaz - Amaan and Ayaan Ali Khan", R.drawable.saaz);
-        file_maps.put("Blitzkrieg - Dualist Inquiry and Sandunes", R.drawable.blitz);
-        file_maps.put("Crescendo - King Mika Singh", R.drawable.crescendo);
-        file_maps.put("Juggernaut - Korpiklaani", R.drawable.jugger);
+        file_maps.put("Saaz - Vikku Vinayak Ram", R.drawable.saaz17);
+        file_maps.put("Blitzkrieg - Javed Ali", R.drawable.javed_ali);
+        file_maps.put("Crescendo - Sajid Wajid", R.drawable.crescendo);
+        file_maps.put("Juggernaut - Marnik", R.drawable.marnik);
+        file_maps.put("Juggernaut- Carl Nunnes",R.drawable.carl_nunes);
         for(String name : file_maps.keySet()){
             TextSliderView textSliderView = new TextSliderView(this);
             textSliderView
