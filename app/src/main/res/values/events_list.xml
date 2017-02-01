@@ -11,7 +11,6 @@
         <item>So You Think You Can Dance</item>
         <item>Nach Baliye</item>
         <item>Navras</item>
-        <item>Footloose</item>
     </string-array>
     <string-array name="classapart">
         <item>Rock-o-Phonix</item>
@@ -25,32 +24,27 @@
         <item>Minimal Poster</item>
         <item>Alcher Diva/Hunk</item>
         <item>Snapthrillz</item>
-        <item>AD-Dict</item>
         <item>Director\'s Cut</item>
-        <item>Typography</item>
         <item>Doodle Pad</item>
     </string-array>
 
     <string-array name="finearts">
         <item>The Big Picture</item>
         <item>Ink the Tee</item>
-        <item>Stroke Of Genius</item>
         <item>Comic Con</item>
         <item>Rangoli</item>
-        <item>Faceless</item>
+        <item>Your Face My Canvas</item>
     </string-array>
 
     <string-array name="performingarts">
         <item>Theatrix</item>
         <item>Halla Bol</item>
-        <item>Why So Serious</item>
         <item>Mute</item>
     </string-array>
     <string-array name="literary">
         <item>Just A Minute</item>
         <item>Poetry Slam</item>
         <item>Parliamentary Debate</item>
-        <item>Press Corps</item>
         <item>Zephyr</item>
         <item>MUN</item>
     </string-array>

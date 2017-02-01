@@ -1,78 +1,109 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="saaz">
-        <item>Amaan and Ayaan Ali Khan are World Class Sarod Players. They are also the 7th Generation of a legendary musical lineage and the sons and disciples of Sarod Maestro Amjad Ali Khan.</item>
-        <item>Institute Auditorium</item>
-        <item>28th January. 8.00pm to 10.00pm</item>
+        <item>Any musical instrument can be credited with popularizing many artists because of how well they play it.
+Then, there are some artists that can be credited with popularizing a musical instrument itself because they pioneered its music.
+Presenting the legendary Grammy winner Pt. Vikku Vinayak Ram as the headliner for Saaz, the classical night for Alcheringa 2017: Eternal Sands.</item>
+        <item>Institute Auditorium</item>\
+        <item>2nd February. 7:15 pm to 8:45 pm</item>
     </string-array>
     <string-array name="blitz">
-        <item>Dualist Inquiry and Sandunes are both well known artists in the Indian EDM scene. Dualist Inquiry\'s music can be described as a mix of various genres including Rock, Dubstep and Lounge while that of Sandunes incorporates organic beats into Electronica and Garage Music.</item>
+        <item>Coke Studio presents Blitzkrieg headlined by Javed Ali at Alcheringa, IIT Guwahati. The time has come to dance your way along the mellifluous tunes of this legend.</item>
         <item>Cricket Ground</item>
-        <item>29th January. 8.00pm to 10.00pm</item>
+        <item>4th February 8.15 pm to 10.00 pm</item>
     </string-array>
     <string-array name="crescendo">
-        <item>Mika Singh is a celebrated Bollywood Singer, Composer cum Songwriter. He is known for his hit numbers like "Mauja Hi Mauja" and "Mast Kalandar".</item>
+        <item>Crescendo headlined by Sajid Wajid in their first ever college show at Alcheringa, IIT Guwahati. Get ready to get blown away this Alcher dancing to some of the most popular songs from the biggest hits in bollywood!</item>
         <item>Cricket Ground</item>
-        <item>30th January. 8.00pm to 10.00pm</item>
+        <item>5th February 7:30 pm to 10.30 pm</item>
     </string-array>
     <string-array name="juggernaut">
-        <item>Korpiklaani, the celebrated Folk Metal Band from Finland is all set to rock the stage at the 20th Edition of Alcheringa, IIT Guwahati’s Annual Cultural Spectacle. Known for their hit numbers like “Vodka” and “Ievan Polkka”, the band’s native Samic music elements, Shamanic Drums and Joik Singing provide a unique twist to Metal. Having released their 9th Studio Album “Noita” last year, the band is on an international tour.</item>
+        <item>  Carl Nunes, Latin America’s biggest electronic music artist coming all the way from Guatemala. In his first show on his India tour, catch Carl Nunes live on the main stage as one of our headlining artists on Friday.
+Artist managed by Kreative Keeda and NCM.</item>
         <item>Cricket Ground</item>
-        <item>31st January. 8.00pm to 10.00pm</item>
+        <item>3rd February. 7:15 pm to 8:45 pm</item>
     </string-array>
-    <string-array name="ouzo">
-        <item> Ouzo Bazooka is an Israeli Psychedelic Rock Band. Drawing influences from the beautiful city of Tel Aviv, along with classic hard rock, psychedelic art, garage rock and surf,Ouzo Bazooka’s sound is a dizzying concoction of east meets west. </item>
+    <string-array name="juggernaut2">
+        <item>Presenting Italian phenomena, MARNIK, who have made their mark as one of the most promising talents in today’s scene. Catch Marnik live on the main stage as one of our headlining artists on Friday</item>
         <item>Cricket Ground</item>
-        <item>29th January. 19.00pm to 20.00pm</item>
+            <item>3rd February 8.45 pm to 9:15 pm</item>
     </string-array>
-    <string-array name="ijp">
-        <item> The Indian Jam Project (Founder/Arranger - Tushar Lall), a bunch of young Indian musicians, have been casting their spell over thousands in recent times by covering Western symphonies with a desi twist. </item>
+    <string-array name="mad">
+        <item> Easily recognizable through its piano-centred, synthesizer-heavy sound, The MadHatter Project writes, plays and (re)interprets music in its cynically optimistic way. With four history and music geeks (and oxymoron enthusiasts) in its ranks, the product is quirky and flamboyant yet introverted and introspective </item>
+        <item>SAC Wall</item>
+        <item>4th February  15:30-16:30</item>
+    </string-array>
+    <string-array name="echo">
+        <item> A duo of music producers, creating together a mad mix of ethnic backgrounds with electronic bass music, dub and hip hop. ECHO is a singer/MC, and TITO is a real sonic explorer/musician </item>
         <item>Institute Auditorium</item>
-        <item>28th January. 21.00pm to 22.00pm</item>
+        <item>3rd February. 17:30-18:30</item>
     </string-array>
-    <string-array name="tropicgreen">
-        <item>Tropic Green is a Jazz band from Singapore. Their music can be described as a bewitching blend of classic and contemporary Jazz where each instruments tonal varieties shine individually as well as collaboratively.</item>
+    <string-array name="nuno">
+        <item>Nuno Marino, guitarist,music composer,padagogue,investor,promoter hailing from Portugal. </item>
+        <item>SAC Wall</item>
+        <item>3rd February. 16.00 to 17.00</item>
+    </string-array>
+    <string-array name="hip">
+        <item>Renowned Belly Dance Troup from Delhi, The Hip Circle.</item>
         <item>Institute Auditorium</item>
-        <item>30th January. 17.00pm to 18.00pm</item>
+        <item>15.30 to 16.30</item>
     </string-array>
-    <string-array name="fasta">
-        <item>Fasta is an Irish Band whose music can be described as classic Irish Folk with a Quebecois twist.</item>
-        <item>Institute Auditorium</item>
-        <item>29th January. 15.30pm to 16.30pm</item>
+    <string-array name="raymond">
+        <item> A lecture by Mr. Raymond O.Cadwell, resident director and full-time professor at Howard University.
+Raymond has toured internationally as a performer and director of several shows on gender based equality and advancing the role of women in contemporary society.</item>
+        <item>Conference Hall</item>
+        <item>4th February. 9:00 to 10:00 am</item>
     </string-array>
-    <string-array name="omarmusa">
-        <item>Omar Musa is an Australian Poet, Rapper and Writer.His combination of poetry and hip-hop music has produced many unique pieces. He is also the winner of the Australian Poetry Slam in 2009 and the Indian Poetry Slam in 2010. </item>
-        <item>Institute Auditorium</item>
-        <item>30th January. 18.00pm to 19.00pm</item>
-    </string-array>
-    <string-array name="metastasis">
-        <item>Meta-Stasis is an Extreme Technical Metal band from the UK.Combining psycho-extreme-tech-death metal and industrial/jungle, their music will send you into a psychotic frenzy!</item>
+    <string-array name="color_ne">
+        <item>The time has come to not only enjoy the cultures of the Eternal Sands but also to take pride in our very own culture. And in what better way than to witness live Bihu and Sattriya dance performances.</item>
         <item>Cricket Ground</item>
-        <item>31st January. 19.00pm to 20.00pm</item>
+        <item>4th February. 16:30 to 18:30</item>
     </string-array>
-    <string-array name="tugofwar">
-        <item>Can you overcome 3 other people, either with brute strength or strategy?</item>
+    <string-array name="fails">
+        <item>A high energy live show, critical acclaim complete with am aggressive dark brand of metal. All you metal heads out there, rejoice! Coming all away from Canada on Day2.</item>
         <item>Cricket Ground</item>
-        <item>All Day. Every Day.</item>
+        <item>4th Feb</item>
     </string-array>
-    <string-array name="snakes">
-        <item>Try to climb the ladders and avoid the snakes as best you can.</item>
+    <string-array name="soul">
+        <item>Soul twins, finalists of Maruti Suzuki, Colours of Youth S04 are back in action known for their fusion style dancing, Bishnu Chetri and Sumit Kumar Jogi are all said to rock the stage with thei hip hop performance</item>
         <item>Cricket Ground</item>
-        <item>All Day. Every Day.</item>
+        <item>5th Feb</item>
     </string-array>
-    <string-array name="penfight">
-        <item>Are you the best at \'pen-fight\'? You will soon find out!</item>
-        <item>Gaming Arena</item>
-        <item>All Day.Every Day.</item>
+
+
+    <string-array name="blind_date">
+        <item>Participate in this couple event and feel the spark.</item>
+        <item>________</item>
+        <item>________</item>
     </string-array>
-    <string-array name="treasure">
-        <item>Meta-Stasis is an Extreme Technical Metal band from the UK.Combining psycho-extreme-tech-death metal and industrial/jungle, their music will send you into a psychotic frenzy!</item>
-        <item>Cricket Ground</item>
-        <item>31st January. 19.00pm to 20.00pm</item>
+    <string-array name="hungergames">
+        <item>Do you have an appetite? Do you have a thing for taste, or do you have a habit of winning? Any of these and you are fit to enter the games.</item>
+        <item>________</item>
+        <item>________</item>
     </string-array>
-    <string-array name="gadhamaar">
-        <item>Eliminate the most people to emerge victorious in this free for all </item>
-        <item>Cricket Ground</item>
-        <item>All Day. Every Day.</item>
+    <string-array name="crush">
+        <item>Think you are the best couple around? Compete against other couples and find out!</item>
+        <item>________</item>
+        <item>________</item>
+    </string-array>
+    <string-array name="mysterypong">
+        <item>Try to get your opponents to drink our famous  Mystery Juice. Trust me, you dont want to drink it, but you will surely want others to!</item>
+        <item>________</item>
+        <item>________</item>
+    </string-array>
+    <string-array name="balloonomia">
+        <item>Nobody can be boring with a balloon. So, enjoy yourself through these games. </item>
+        <item>________</item>
+        <item>________</item>
+    </string-array>
+    <string-array name="gamingarena">
+        <item>In this event we have something for our sports lovers, mixture of desi and videsi.</item>
+        <item>________</item>
+        <item>________</item>
+    </string-array>
+    <string-array name="speeddating">
+        <item>Looking for your someone special but don’t have time for that? Take part in our speed dating and find the person missing from your  </item>
+        <item>________</item>
+        <item>________</item>
     </string-array>
 </resources>

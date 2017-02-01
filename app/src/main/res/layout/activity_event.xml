@@ -4,12 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     xmlns:app="http://schemas.android.com/apk/lib/in.alcheringa.alcher16"
-    tools:context="in.alcheringa.alcher16.Event">
+    tools:context="in.alcheringa.alcher17.Event">
     <include
         android:id="@+id/tool_bar"
         layout="@layout/tool_bar"
         ></include>
-    <in.alcheringa.alcher16.SlidingTabLayout
+    <in.alcheringa.alcher17.SlidingTabLayout
         android:id="@+id/tabs_event"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

@@ -4,8 +4,8 @@ android {
     compileSdkVersion 25
     buildToolsVersion "25.0.1"
     defaultConfig {
-        applicationId "in.alcheringa.alcher16"
-        minSdkVersion 15
+        applicationId "in.alcheringa.alcher17"
+        minSdkVersion 17
         targetSdkVersion 25
         versionCode 2
         versionName '1..1'
@@ -13,9 +13,7 @@ android {
     }
     buildTypes {
         release {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
-        }
+            minifyEnabled false        }
     }
     productFlavors {
     }

@@ -23,7 +23,6 @@
     </string-array>
     <string-array name="tab_names_event">
         <item>About</item>
-        <item>Rules</item>
     </string-array>
     <string name="title_activity_event">Event</string>
     <string name="title_activity_pro_night">ProNight</string>

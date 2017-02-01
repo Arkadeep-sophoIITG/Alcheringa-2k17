@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<resources>
+<?xml version="1.0" encoding="UTF-8"?><resources>
     <string-array name="ragahigh">
         <item>Hindi Band Competition</item>
         <item>A harmonium or a keyboard, a guitar or a tanpura, hindi music has always been a sublime confluence of musical influences from all over the the country. Come and let the pleasant Classical, the eclectic Pop and the divine Sufi bring out the best in you. Mesmerize the world with the power in your music!</item>
@@ -15,7 +14,7 @@
 5. Top 7 teams from the prelims shall qualify for the finals.\n
 
 FINALS\n
-1. The 7 qualified teams will be invited to Alcheringa 2016 and will be given an opportunity to perform in front of a huge crowd.\n
+1. The 7 qualified teams will be invited to Alcheringa 2017 and will be given an opportunity to perform in front of a huge crowd.\n
 
 2. Each team will be given a total time of 25 minutes (which also includes stage setup time).\n
 
@@ -241,29 +240,7 @@ FINALS\n
 
 3. The creative use of props is allowed in this round, and they do fetch extra points in this round.\n</item>
     </string-array>
-    <string-array name="footloose">
-        <item>Group Dance Video Competition</item>
-        <item>Gather your friends, dance up a storm and send us the video to win prizes worth INR 10K ! Performing in front of a crowd will earn you bonus points. The best entries will feature on our Page.</item>
-      <item>RULES\n
-It is a freestyle group dance competition which can be performed in front of an outdoor audience.\n
 
-The team should consist of minimum of five participants.\n
-
-The entry has to be submitted online through the following link The length of the video should be between four to six minutes.\n
-
-The video entry should showcase that it has been exclusively performed for Alcheringa for example a placard with Alcheringa written on it and can be kept in front while recording the video or you can stick a paper with Alcheringa written on it on your t-shirts.\n
-
-The entries will be screened and best entries will be uploaded through our Facebook page.\n
-
-Judging Criterion\n
-
-
-The best performance shall be judged on the basis of following criterions 60% Weight-age will be given to the performance in the video.\n
-
-30% Weight-age will be given to the reach of the video uploaded through our page ( Number of Likes and Shares ) \n
-
-10% Weight-age will be given for public performance.\n</item>
-    </string-array>
     <string-array name="rockophonix">
         <item>Rock Band Competition</item>
         <item>When we say we get some of the best rock bands in the country, we aren\'t kidding. Alcheringa presents you the Holy Grail of Rock... the winner takes all!</item>
@@ -352,7 +329,7 @@ Candidates will be shortlisted on the basis of their replies to the questionnair
 
 PRELIMS\n
 
-Round 1: Ramp walk cum Short introduction.\n 
+Round 1: Ramp walk cum Short introduction.\n
 
 Round 2: Talent Round.\n
 
@@ -512,19 +489,7 @@ Theme: Juxtapose.\n
 
 4)Entries must be the original and unpublished work of the participant and copyright owner.\n</item>
     </string-array>
-    <string-array name="addict">
-        <item>Ad making Competition</item>
-        <item>Advertising has never been easy, but time to time brilliant ideas have managed to steal the attention of the busy world. Advertisement has become such an essential tool of this modern world that imagining a world without ads is impossible. A true advertisement is one that connects people to the brand and reflects in the sale. Be one such great advertiser and create your own one minute ad giving your product the best possible marketing.</item>
-      <item>RULES\n
 
-Team Size: No constraints (the video may or may not include Actors)\n
-
-Time limit: No lower limit, but the video should not be longer than 120 seconds.\n
-
-Theme:To be declared soon.\n
-
-Judging criteria: Creativity, Portrayal of brand image, message conveyed to the society and the overall impact of the video. Bonus marks for technical innovations\n</item>
-    </string-array>
     <string-array name="directorscut">
         <item>Short Movie Making</item>
         <item>Tired of the typical cinema?? Do you think that the time has arrived to come out of the cliched movies and show the world what real movies are about? If you agree and want to show the world your direction skills, then the stage is set for you to bring a change by depicting your ideas with the help of this moviemaking competition.</item>
@@ -548,11 +513,7 @@ JUDGING CRITERIA\n
 
 5) Overall Impression\n</item>
     </string-array>
-    <string-array name="typography">
-        <item>Font Designing Competition</item>
-        <item />
-        <item>Participlants are required to design a complete set of fonts.</item>
-    </string-array>
+
     <string-array name="doodlepad">
         <item>Doodle Making Competition</item>
         <item>You must have thought how a doodle artist would have started his creation , so this time we provide you a small element of a doodle and all you have to do is to complete that doodle (without editing the given element) from your own creativity.</item>
@@ -600,18 +561,7 @@ To be creative is to be intellectual. It is easier to express your feelings in w
 
 4) Maximum time limit is 3 hours.\n</item>
     </string-array>
-    <string-array name="strokesofgenius">
-        <item>Sketching Competition</item>
-        <item>A sketch a day keeps dullness away! Alcheringa brings you "Strokes of Genius", a simple sketching competition based on the given theme or topic which majorly focuses on sketching and innovative skills of the participants. So bring out the artistic genius in you by expressing your feelings on a sheet of paper using the multiple shades of grey.</item>
-      <item>Rules\n
-1) To make the sketch only drawing sheet, charcoal, chalks and sketching pencils of various grades will be provided by the organizers.\n
 
-2) The theme for the contest will be declared by the organizers on the spot of the contest.\n
-
-3) Maximum team size is of 2 members.\n
-
-4) Time limit for the competition is 3 hours.\n</item>
-    </string-array>
     <string-array name="comiccon">
         <item>Comic Strip Designing Competition</item>
       <item>Who hasn\'t spent hours reading comic books hidden inside the school books pretending to be deeply engrossed in the preparation for an exam while secretly relishing while secretly relishing in the magical world of comic characters.\n
@@ -706,25 +656,7 @@ Successfully depicting the plot or theme.\n
 
 Originality.\n</item>
     </string-array>
-    <string-array name="whysoserious">
-        <item>Stand Up Comedy Act</item>
-      <item>“Stand up comedy in general is the ultimate form of free speech, because you get to poke holes in all the pretentious bubbles politicians and pundits and popes and pretenders try to float over our heads.”
-Stand-up comedy and poverty. Those were my two main endeavors. The thing about stand-ups is you can\'t really get good unless you\'re failing in front of a large number of people. That makes stand-up comedy unique: you need a tremendous amount of reserve within you to take the rejection from the audience, and without it, you can\'t do anything. If you like making other’s smile then stand up comedy is the best thing that you can do.</item>
-      <item>RULES\n
-Online registrations are advised but on-spot registrations are also allowed.\n
 
-Maximum no. of members in a team is 3.\n
-
-Time limit for the performance is 5 minutes.\n
-
-Usage of fire/water/smoke/gulaal is not allowed.\n
-
-Performance can be either in Hindi or in English.\n
-
-The minimum age limit for this competition is 12 years.\n
-
-Issues like crossing time limits, using abusive language or vulgarity will lead to negative marking and it will be completely over judge\'s discretion.\n</item>
-    </string-array>
     <string-array name="mute">
         <item>Mime Competition</item>
       <item>“Never get a mime talking. He won\'t stop.”\n
@@ -787,7 +719,7 @@ In case of a tie, the participant with the most JAMs goes through. If the tie is
     </string-array>
     <string-array name="poetryslam">
         <item>Poetry Reciting Competition</item>
-        <item>Poetry and performance. U always thought these were like oil and water, right? Not anymore. Alcheringa 2016 brings to you ‘Poetry Slam’. We are calling all the fans of the spoken word to come and be a part of this event being held for the first time in the history of Alcheringa.</item>
+        <item>Poetry and performance. U always thought these were like oil and water, right? Not anymore. Alcheringa 2017 brings to you ‘Poetry Slam’. We are calling all the fans of the spoken word to come and be a part of this event being held for the first time in the history of Alcheringa.</item>
       <item>Points are given for content and performance.\n
 
 The number of rounds will be based on the number of participants.\n
@@ -802,30 +734,12 @@ No background music allowed other than the music you can make from your own body
     </string-array>
     <string-array name="parlimentarydebate">
         <item>An Academic Debate Event</item>
-        <item />
+        <item/>
       <item>The rule followed will be \'3 on 3\' parliamentary style of debating. Each team will comprise of three speakers and one adjudicator. Standard UADC rules will be followed.\n
 
 Click here for standard UADC rule.\n</item>
     </string-array>
-    <string-array name="presscorps">
-        <item>Journalism competition</item>
-        <item>"The nation wants to know!" Always dreamt about doing this? Are you one of those people who always wished to uncover a huge story which no one knew about? Do you want to be a real life Tintin? Then this competition is for you. Fans of detective journalism or simply detective fiction, put on your thinking caps. Press corps is here.</item>
-      <item>RULES\n
 
-1. Online Registration is highly recommended. On spot registrations will also be available.\n 
-
-2. Only 2 participants per team.\n
-
-3. Each team will have to submit 5 newspaper articles in the following fields: International affairs, Sports, Business, Indian politics, "Surprise category".\n
-
-4. The details for the surprise category will be given at the start of the competition.\n
-
-5. Each interview will be recorded. Misquoting a source will lead to the gain of negative points.\n
-
-6. Each interview will be for 15-20 minutes.The exact time limit will be announced before the start of the event.\n
-
-7. The teams will get 3 hours to submit their articles.\n</item>
-    </string-array>
     <string-array name="zephyr">
         <item>Online Creative Writng Competition</item>
       <item>It\'s been too long. You\'ve forgotten what you should\'ve remembered, and you remember what you shouldn\'t have. There is no greater agony than bearing an untold story inside.\n
@@ -906,7 +820,7 @@ A - Arts\n</item>
     </string-array>
     <string-array name="spentquiz">
         <item>SPENT Quiz</item>
-        <item />
+        <item/>
       <item>1. A team shall consist of max two persons.\n
 
 2. The decision of the quiz-master will be final and will not be subjected to any change.\n
@@ -921,57 +835,9 @@ A - Arts\n</item>
 
 7. Teams selected for the final rounds will be allowed to give themselves an appropriate name related to the competition by which they may want to be known\n</item>
     </string-array>
-    <string-array name="generalquiz">
-        <item>General Quiz</item>
-        <item />
-      <item>1. A team shall consist of max two persons.\n
 
-2. The decision of the quiz-master will be final and will not be subjected to any change.\n
 
-3. The participants shall not be allowed to use mobile or other electronic instruments.\n
 
-4. The Quizzes will have prelims followed by finals (For the finals a specific number of teams will qualify which shall be decided by the Quizmaster)
-
-5. Audience shall not give any hints or clues to the competitors.\n
-
-6. Replacement of any participant of a team is not allowed after registration.\n
-
-7. Teams selected for the final rounds will be allowed to give themselves an appropriate name related to the competition by which they may want to be known\n</item>
-    </string-array>
-    <string-array name="businessquiz">
-        <item>Business Quiz</item>
-        <item />
-      <item>1. A team shall consist of max two persons.\n
-
-2. The decision of the quiz-master will be final and will not be subjected to any change.\n
-
-3. The participants shall not be allowed to use mobile or other electronic instruments.\n
-
-4. The Quizzes will have prelims followed by finals (For the finals a specific number of teams will qualify which shall be decided by the Quizmaster)
-
-5. Audience shall not give any hints or clues to the competitors.\n
-
-6. Replacement of any participant of a team is not allowed after registration.\n
-
-7. Teams selected for the final rounds will be allowed to give themselves an appropriate name related to the competition by which they may want to be known\n</item>
-    </string-array>
-    <string-array name="bollywoodquiz">
-        <item>Bollywood Quiz</item>
-        <item />
-      <item>1. A team shall consist of max two persons.\n
-
-2. The decision of the quiz-master will be final and will not be subjected to any change.\n
-
-3. The participants shall not be allowed to use mobile or other electronic instruments.\n
-
-4. The Quizzes will have prelims followed by finals (For the finals a specific number of teams will qualify which shall be decided by the Quizmaster)
-
-5. Audience shall not give any hints or clues to the competitors.\n
-
-6. Replacement of any participant of a team is not allowed after registration.\n
-
-7. Teams selected for the final rounds will be allowed to give themselves an appropriate name related to the competition by which they may want to be known\n</item>
-    </string-array>
     <string-array name="basketball">
         <item>3 vs 3 Basketball</item>
         <item>Think you rule the court? Love to dazzle to the crowd with your crossovers and ankle breakers? Have got the perfect jumper? Then fight it out with the best and prove to the world that you have got hoops in your blood once and for all!</item>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="in.alcheringa.alcher16" >
+    package="in.alcheringa.alcher17" >
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -17,17 +17,19 @@
     <uses-permission android:name="in.alcheringa.alcher16.permission.C2D_MESSAGE" />
 
     <application
-        android:name=".App"
+        android:name="in.alcheringa.alcher17.App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name" >
+            android:name="in.alcheringa.alcher17.MainActivity"
+            android:label="@string/app_name"
+            android:largeHeap="true"
+            android:supportsRtl="true">
         </activity>
         <activity
-            android:name=".Splash"
+            android:name="in.alcheringa.alcher17.Splash"
             android:label="@string/app_name"
             android:theme="@style/SplashTheme" >
             <intent-filter>
@@ -36,38 +38,31 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
-            android:name=".NewsFeedActivity"
-            android:label="@string/title_activity_news_feed" >
+            android:name="in.alcheringa.alcher17.Concerts"
+            android:label="@string/title_activity_concerts"
+            android:largeHeap="true"
+            android:supportsRtl="true">
         </activity>
         <activity
-            android:name=".Concerts"
-            android:label="@string/title_activity_concerts" >
+            android:name="in.alcheringa.alcher17.Competitions"
+            android:label="@string/title_activity_competitions"
+            android:largeHeap="true"
+            android:supportsRtl="true">
         </activity>
         <activity
-            android:name=".Competitions"
-            android:label="@string/title_activity_competitions" >
-        </activity>
-        <activity
-            android:name=".Module"
+            android:name="in.alcheringa.alcher17.Module"
             android:label="@string/title_activity_module" >
         </activity>
         <activity
-            android:name=".Event"
+            android:name="in.alcheringa.alcher17.Event"
             android:label="@string/title_activity_event" >
         </activity>
 
-        <service android:name="com.parse.PushService" />
 
-        <receiver
-            android:name=".MyPushReceiver"
-            android:exported="false" >
-            <intent-filter>
-                <action android:name="com.parse.push.intent.RECEIVE" />
-                <action android:name="com.parse.push.intent.DELETE" />
-                <action android:name="com.parse.push.intent.OPEN" />
-            </intent-filter>
-        </receiver>
+
+
         <receiver
             android:name="com.parse.GcmBroadcastReceiver"
             android:permission="com.google.android.c2dm.permission.SEND" >
@@ -80,35 +75,46 @@
         </receiver>
 
         <activity
-            android:name=".ProNight"
-            android:label="@string/title_activity_pro_night" >
+            android:name="in.alcheringa.alcher17.ProNight"
+            android:label="@string/title_activity_pro_night"
+            android:largeHeap="true"
+            android:supportsRtl="true">
         </activity>
         <activity
-            android:name=".Map"
+            android:name="in.alcheringa.alcher17.Map"
             android:label="@string/title_activity_map" >
         </activity>
         <activity
-            android:name=".Informals"
-            android:label="@string/title_activity_informals" >
+            android:name="in.alcheringa.alcher17.Informals"
+            android:label="@string/title_activity_informals"
+            android:largeHeap="true"
+
+            android:supportsRtl="true">
         </activity>
         <activity
-            android:name=".Specials"
-            android:label="@string/title_activity_specials" >
+            android:name="in.alcheringa.alcher17.Specials"
+            android:label="@string/title_activity_specials"
+            android:largeHeap="true"
+            android:supportsRtl="true">
         </activity>
         <activity
-            android:name=".Proshows"
-            android:label="@string/title_activity_proshows" >
+            android:name="in.alcheringa.alcher17.Proshows"
+            android:label="@string/title_activity_proshows"
+            android:largeHeap="true"
+            android:supportsRtl="true">
         </activity>
         <activity
-            android:name=".Schedule"
+            android:name="in.alcheringa.alcher17.Schedule"
             android:label="@string/title_activity_schedule" >
         </activity>
         <activity
-            android:name=".Sponsors"
-            android:label="@string/title_activity_sponsors" >
+            android:name="in.alcheringa.alcher17.Sponsors"
+            android:label="@string/title_activity_sponsors"
+            android:largeHeap="true"
+            android:supportsRtl="true">
         </activity>
         <activity
-            android:name=".ContactUs"
+            android:name="in.alcheringa.alcher17.ContactUs"
             android:label="@string/title_activity_contact_us" >
         </activity>
 
@@ -116,12 +122,12 @@
             android:name="com.parse.push.notification_icon"
             android:resource="@drawable/launcher_icon" />
 
+        <!--<activity-->
+            <!--android:name=".ScavengerHunt"-->
+            <!--android:label="@string/title_activity_scavenger_hunt" >-->
+        <!--</activity>-->
         <activity
-            android:name=".ScavengerHunt"
-            android:label="@string/title_activity_scavenger_hunt" >
-        </activity>
-        <activity
-            android:name=".Initiatives"
+            android:name="in.alcheringa.alcher17.Initiatives"
             android:label="@string/title_activity_initiatives" >
         </activity>
     </application>

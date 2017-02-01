@@ -1,38 +1,99 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="in.alcheringa.alcher16.ContactUs">
-    <include
-        android:id="@+id/tool_bar"
-        layout="@layout/tool_bar"
-        ></include>
-    <TextView
-        android:layout_below="@+id/tool_bar"
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="2dp"
+    android:background="#eeeeee"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="@dimen/activity_vertical_margin"
-        android:id="@+id/contacttext"
-        android:text="Get it touch with us. "/>
-    <LinearLayout
-        android:layout_below="@id/contacttext"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:elevation="2dp"
+        android:id="@+id/cnt1"
+        android:onClick="onClickCall1"
+        android:layout_marginTop="10dp"
+        android:foreground="?attr/selectableItemBackground"
+        android:background="#ffffff"
+        card_view:cardCornerRadius="4dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Public Relations Head  Pingal Kakati"
+                android:textColor="@android:color/black"
+                android:id="@+id/invite_friends"
+                android:layout_gravity="center_horizontal"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:weightSum="2">
-    <Button
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="Public Relations Head,Kishor Malakar"
-        android:layout_weight="1"
-        android:onClick="onClickCall1"/>
-    <Button
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-        android:text="Public Relations Head,Gaurav Singh"
-            android:layout_weight="1"
-        android:onClick="onClickCall2"/>
-    </LinearLayout>
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:elevation="2dp"
+        android:onClick="onClickCall2"
+        android:id="@+id/cnt2"
+        android:layout_marginTop="25dp"
+        android:foreground="?attr/selectableItemBackground"
+        android:background="#ffffff"
+        card_view:cardCornerRadius="4dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Public Relations Head  Himanshu Swaroop"
+                android:textColor="@android:color/black"
+                android:id="@+id/help_faq"
+                android:layout_gravity="center_horizontal"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true" />
+        </RelativeLayout>
 
+    </android.support.v7.widget.CardView>
 
-</RelativeLayout>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:elevation="2dp"
+        android:onClick="onClickCall3"
+        android:id="@+id/cnt3"
+        android:layout_marginTop="25dp"
+        android:foreground="?attr/selectableItemBackground"
+        android:background="#ffffff"
+        card_view:cardCornerRadius="4dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Security Head - Meghal"
+                android:textColor="@android:color/black"
+                android:id="@+id/Contact"
+                android:layout_gravity="center_horizontal"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

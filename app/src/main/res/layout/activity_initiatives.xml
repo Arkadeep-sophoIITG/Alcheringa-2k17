@@ -1,7 +1,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="in.alcheringa.alcher16.Initiatives">
+    tools:context="in.alcheringa.alcher17.Initiatives">
     <include
         android:id="@+id/tool_bar"
         layout="@layout/tool_bar"
