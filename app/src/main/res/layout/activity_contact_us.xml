@@ -10,12 +10,12 @@
 
     <android.support.v7.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="90dp"
         android:clickable="true"
         android:elevation="2dp"
         android:id="@+id/cnt1"
         android:onClick="onClickCall1"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
         android:foreground="?attr/selectableItemBackground"
         android:background="#ffffff"
         card_view:cardCornerRadius="4dp">
@@ -33,6 +33,16 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_alignParentBottom="true"
                 android:layout_alignParentTop="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="8399076595"
+                android:textStyle="bold"
+                android:id="@+id/textView"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
         </RelativeLayout>
 
     </android.support.v7.widget.CardView>
@@ -40,7 +50,7 @@
 
     <android.support.v7.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="90dp"
         android:clickable="true"
         android:elevation="2dp"
         android:onClick="onClickCall2"
@@ -63,13 +73,23 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_alignParentBottom="true"
                 android:layout_alignParentTop="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="7638038129"
+                android:textStyle="bold"
+                android:id="@+id/textView2"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
         </RelativeLayout>
 
     </android.support.v7.widget.CardView>
 
     <android.support.v7.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="90dp"
         android:clickable="true"
         android:elevation="2dp"
         android:onClick="onClickCall3"
@@ -86,12 +106,22 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Security Head - Meghal"
+                android:text="Security Head   Meghal"
                 android:textColor="@android:color/black"
                 android:id="@+id/Contact"
                 android:layout_gravity="center_horizontal"
                 android:layout_alignParentBottom="true"
                 android:layout_alignParentTop="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="7896889515"
+                android:textStyle="bold"
+                android:id="@+id/textView3"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
         </RelativeLayout>
 
     </android.support.v7.widget.CardView>
